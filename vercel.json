@@ -1,1 +1,37 @@
-{}
+{
+  "redirects": [
+    { "source": "/contact-us", "destination": "https://www.texasflange.com/contact-us/?ref=weldneckflanges", "permanent": true },
+    { "source": "/contact-us-2", "destination": "https://www.texasflange.com/contact-us/?ref=weldneckflanges", "permanent": true },
+    { "source": "/about-us", "destination": "/about", "permanent": true },
+    { "source": "/about-us-2", "destination": "/about", "permanent": true },
+    { "source": "/category/blogs", "destination": "/blog", "permanent": true },
+    { "source": "/blogs", "destination": "/blog", "permanent": true },
+    { "source": "/blog-list", "destination": "/blog", "permanent": true },
+    { "source": "/blog-post2", "destination": "/blog", "permanent": true },
+    { "source": "/uncategorized", "destination": "/blog", "permanent": true },
+    { "source": "/Uncategorized", "destination": "/blog", "permanent": true },
+    { "source": "/category/uncategorized", "destination": "/blog", "permanent": true },
+    { "source": "/cad-3d-flange-drawings", "destination": "/services", "permanent": true },
+    { "source": "/company.html", "destination": "/", "permanent": true },
+    { "source": "/Catalog.pdf", "destination": "/services", "permanent": true },
+    { "source": "/faq", "destination": "/", "permanent": true },
+    { "source": "/gallery", "destination": "/", "permanent": true },
+    { "source": "/properly-install-weld-neck-flanges", "destination": "/blog/properly-install-weld-neck-flanges", "permanent": true },
+    { "source": "/right-material-for-weld-neck-flanges", "destination": "/blog/right-material-for-weld-neck-flanges", "permanent": true },
+    { "source": "/ultimate-guide-to-weld-neck-flanges", "destination": "/blog/ultimate-guide-to-weld-neck-flanges", "permanent": true },
+    { "source": "/benefits-of-using-weld-neck-flanges", "destination": "/blog/benefits-of-weld-neck-flanges-high-pressure", "permanent": true },
+    { "source": "/weld-neck-flange-price-breakdown-usa-2025", "destination": "/blog/weld-neck-flange-price-breakdown-usa-2025", "permanent": true },
+    { "source": "/weld-neck-flange-dimensions", "destination": "/blog/weld-neck-flange-dimensions", "permanent": true },
+    { "source": "/weld-neck-flange-design-high-pressure", "destination": "/blog/weld-neck-flange-design-for-high-pressure-applications", "permanent": true },
+    { "source": "/structural-integrity-weld-neck-connections", "destination": "/blog/structural-integrity-of-weld-neck-connections", "permanent": true },
+    { "source": "/installation-welding-best-practices", "destination": "/blog/installation-and-welding-best-practices", "permanent": true },
+    { "source": "/weld-neck-flange-cost-2025", "destination": "/blog/weld-neck-flange-price-breakdown-usa-2025", "permanent": true },
+    { "source": "/weld-neck-vs-lap-joint-guide", "destination": "/blog/weld-neck-vs-lap-joint-flange", "permanent": true },
+    { "source": "/selecting-right-material-weld-neck", "destination": "/blog/right-material-for-weld-neck-flanges", "permanent": true },
+    { "source": "/weld-neck-flange-design-for-high-pressure-applications", "destination": "/blog/weld-neck-flange-design-for-high-pressure-applications", "permanent": true },
+    { "source": "/structural-integrity-of-weld-neck-connections", "destination": "/blog/structural-integrity-of-weld-neck-connections", "permanent": true },
+    { "source": "/installation-and-welding-best-practices", "destination": "/blog/installation-and-welding-best-practices", "permanent": true },
+    { "source": "/weld-neck-vs-lap-joint-flange", "destination": "/blog/weld-neck-vs-lap-joint-flange", "permanent": true },
+    { "source": "/benefits-of-weld-neck-flanges-high-pressure", "destination": "/blog/benefits-of-weld-neck-flanges-high-pressure", "permanent": true }
+  ]
+}
