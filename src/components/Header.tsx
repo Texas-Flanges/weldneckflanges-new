@@ -26,7 +26,7 @@ export function Header() {
             Contact
           </Link>
         </nav>
-        <Link href="https://texasflange.com/contact" target="_blank" rel="noopener noreferrer" className="btn-primary">
+        <Link href="https://texasflange.com/contact?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="btn-primary">
           Get a Quote
         </Link>
       </div>

@@ -30,16 +30,12 @@ export default function ContactPage() {
                   <p className="text-lg"><a href="mailto:sales@texasflange.com" className="text-blue-600 hover:text-blue-800">sales@texasflange.com</a></p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2">Mailing Address</h3>
-                  <p className="text-lg">P.O. Box 2889<br />Pearland, TX 77588</p>
+                  <h3 className="text-xl font-bold mb-2">Hours</h3>
+                  <p className="text-lg">Mon–Fri, 8 AM – 5 PM CST</p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Website</h3>
-                  <p className="text-lg"><a href="https://texasflange.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">texasflange.com</a></p>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold mb-2">Hours</h3>
-                  <p className="text-lg">Monday - Friday: 9:00 AM - 5:00 PM CST</p>
+                  <p className="text-lg"><a href="https://texasflange.com?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">texasflange.com</a></p>
                 </div>
               </div>
             </div>

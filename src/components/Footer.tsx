@@ -43,9 +43,9 @@ export function Footer() {
               Email: <a href="mailto:sales@texasflange.com" className="hover:text-white transition">sales@texasflange.com</a>
             </p>
             <p className="text-gray-300">
-              Website: <a href="https://texasflange.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">texasflange.com</a>
+              Website: <a href="https://texasflange.com?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">texasflange.com</a>
             </p>
-            <p className="text-gray-300 mt-2">Texas City, TX</p>
+            <p className="text-gray-300 mt-2">Mon–Fri, 8 AM – 5 PM CST</p>
           </div>
         </div>
 

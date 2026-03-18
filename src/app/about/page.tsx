@@ -91,10 +91,25 @@ export default function AboutPage() {
             <h3 className="text-2xl font-bold mb-4">Contact Us</h3>
             <p className="text-lg mb-2">Email: <a href="mailto:sales@texasflange.com" className="text-blue-600 hover:text-blue-800">sales@texasflange.com</a></p>
             <p className="text-lg mb-2">Phone: <a href="tel:+1-281-484-8325" className="text-blue-600 hover:text-blue-800">281-484-8325</a></p>
-            <p className="text-lg">Address: P.O. Box 2889 Pearland, TX 77588</p>
+            <p className="text-lg">Hours: Mon–Fri, 8 AM – 5 PM CST</p>
           </div>
         </div>
       </section>
+
+      {/* Structured Data - Breadcrumb */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            itemListElement: [
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://weldneckflanges.com" },
+              { "@type": "ListItem", position: 2, name: "About", item: "https://weldneckflanges.com/about" },
+            ],
+          }),
+        }}
+      />
     </div>
   );
 }
