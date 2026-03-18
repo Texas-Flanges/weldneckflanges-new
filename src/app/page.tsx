@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Weld Neck Flanges | Steel Flanges by Texas Flange",
+  title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
   description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges. Carbon Steel, Stainless, Alloy Flanges per ASME, ANSI, AWWA, API. Since 1986.",
   keywords: ["weld neck flanges", "steel flanges", "pipe flanges", "flange supplier", "ASME flanges", "ANSI flanges", "Texas Flange", "carbon steel flanges", "stainless steel flanges"],
   openGraph: {
-    title: "Weld Neck Flanges | Steel Flanges by Texas Flange",
+    title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
     description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges in carbon steel, stainless steel, and alloys.",
     url: "https://weldneckflanges.com",
     siteName: "Weld Neck Flanges",
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Weld Neck Flanges | Steel Flanges by Texas Flange",
+    title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
     description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges.",
   },
   alternates: {
@@ -37,9 +37,10 @@ export default function Home() {
 
       {/* Navigation */}
       <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 40px", backgroundColor: "#1a3a5c", color: "#fff", position: "sticky", top: 0, zIndex: 50 }}>
-        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Steel Flanges</a>
+        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Weld Neck Flanges</a>
         <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
           <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
+          <a href="/blog" style={{ color: "#fff", textDecoration: "none" }}>Blog</a>
           <a href="#products" style={{ color: "#fff", textDecoration: "none" }}>Products</a>
           <a href="#materials" style={{ color: "#fff", textDecoration: "none" }}>Materials</a>
           <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
@@ -179,7 +180,7 @@ export default function Home() {
       {/* Footer */}
       <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#fff", marginBottom: "16px" }}>Steel Flanges</h3>
+          <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#fff", marginBottom: "16px" }}>Weld Neck Flanges</h3>
           <p style={{ marginBottom: "8px" }}>Have questions? Contact us.</p>
           <p style={{ marginBottom: "8px" }}>
             Phone: <a href="tel:281-484-8325" style={{ color: "#93c5fd", textDecoration: "none" }}>281-484-8325</a>
@@ -202,7 +203,7 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Steel Flanges",
+            name: "Weld Neck Flanges",
             url: "https://weldneckflanges.com",
             telephone: "+1-281-484-8325",
             email: "sales@texasflange.com",

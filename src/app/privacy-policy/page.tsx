@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
 
       {/* Navigation */}
       <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 40px", backgroundColor: "#1a3a5c", color: "#fff", position: "sticky", top: 0, zIndex: 50 }}>
-        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Steel Flanges</a>
+        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Weld Neck Flanges</a>
         <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
           <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
           <a href="/blog" style={{ color: "#fff", textDecoration: "none" }}>Blog</a>

@@ -30,7 +30,7 @@ export default function BlogPage() {
 
       {/* Navigation */}
       <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 40px", backgroundColor: "#1a3a5c", color: "#fff", position: "sticky", top: 0, zIndex: 50 }}>
-        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Steel Flanges</a>
+        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Weld Neck Flanges</a>
         <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
           <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
           <a href="/blog" style={{ color: "#fff", textDecoration: "none", fontWeight: 600 }}>Blog</a>
@@ -65,7 +65,7 @@ export default function BlogPage() {
           <a href="https://texasflange.com?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
           <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
         </p>
-        <p style={{ fontSize: "13px", color: "#888" }}>&copy; 2025 Steel Flanges. All rights reserved.</p>
+        <p style={{ fontSize: "13px", color: "#888" }}>&copy; 2025 Weld Neck Flanges. All rights reserved.</p>
       </footer>
 
       {/* Structured Data - Breadcrumb */}
