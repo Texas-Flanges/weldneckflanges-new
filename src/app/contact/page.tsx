@@ -35,7 +35,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Website</h3>
-                  <p className="text-lg"><a href="https://texasflange.com?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">texasflange.com</a></p>
+                  <p className="text-lg"><a href="https://texasflange.com/?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">texasflange.com</a></p>
                 </div>
               </div>
             </div>

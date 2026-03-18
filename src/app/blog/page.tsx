@@ -34,7 +34,7 @@ export default function BlogPage() {
         <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
           <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
           <a href="/blog" style={{ color: "#fff", textDecoration: "none", fontWeight: 600 }}>Blog</a>
-          <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
         </div>
       </nav>
 
@@ -62,8 +62,8 @@ export default function BlogPage() {
       {/* Footer */}
       <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
         <p style={{ marginBottom: "8px" }}>
-          <a href="https://texasflange.com?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
-          <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
         </p>
         <p style={{ fontSize: "13px", color: "#888" }}>&copy; 2025 Weld Neck Flanges. All rights reserved.</p>
       </footer>

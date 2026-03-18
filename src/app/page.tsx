@@ -43,7 +43,7 @@ export default function Home() {
           <a href="/blog" style={{ color: "#fff", textDecoration: "none" }}>Blog</a>
           <a href="#products" style={{ color: "#fff", textDecoration: "none" }}>Products</a>
           <a href="#materials" style={{ color: "#fff", textDecoration: "none" }}>Materials</a>
-          <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
         </div>
       </nav>
 
@@ -73,7 +73,7 @@ export default function Home() {
             Manufacturing and Supplying a complete line of Pipe Flanges with Multiple materials available.
           </p>
           <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "14px 36px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>Get Started</a>
+            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "14px 36px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>Get Started</a>
             <a href="https://www.texasflange.com" style={{ color: "#fff", padding: "14px 36px", textDecoration: "none", fontWeight: 500, fontSize: "16px", border: "2px solid rgba(255,255,255,0.5)", borderRadius: "6px" }}>Visit Texas Flange</a>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Home() {
         <p style={{ fontSize: "17px", marginBottom: "30px", opacity: 0.9 }}>
           Phone: <a href="tel:281-484-8325" style={{ color: "#fff", textDecoration: "underline" }}>281-484-8325</a>
         </p>
-        <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ backgroundColor: "#fff", color: "#2563eb", padding: "14px 40px", borderRadius: "30px", textDecoration: "none", fontWeight: 600, fontSize: "16px", display: "inline-block" }}>Request a Quote</a>
+        <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#fff", color: "#2563eb", padding: "14px 40px", borderRadius: "30px", textDecoration: "none", fontWeight: 600, fontSize: "16px", display: "inline-block" }}>Request a Quote</a>
       </section>
 
       {/* Footer */}
@@ -189,8 +189,8 @@ export default function Home() {
             Email: <a href="mailto:sales@texasflange.com" style={{ color: "#93c5fd", textDecoration: "none" }}>sales@texasflange.com</a>
           </p>
           <p style={{ marginBottom: "16px" }}>
-            <a href="https://texasflange.com?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>More Information</a> {" | "}
-            <a href="https://texasflange.com?ref=weldneckflanges/contact-us" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+            <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>More Information</a> {" | "}
+            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
           </p>
           <p style={{ fontSize: "13px", color: "#888", marginTop: "20px" }}>&copy; 2026 Weld Neck Flanges. All rights reserved.</p>
         </div>
@@ -211,7 +211,7 @@ export default function Home() {
             parentOrganization: {
               "@type": "Organization",
               name: "Texas Flange",
-              url: "https://texasflange.com?ref=weldneckflanges",
+              url: "https://texasflange.com/?ref=weldneckflanges",
             },
           }),
         }}
