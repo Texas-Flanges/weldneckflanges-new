@@ -6,7 +6,7 @@ export function Header() {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="container-wide py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-blue-600">
+        <Link href="/" className="text-lg sm:text-2xl font-bold text-blue-600">
           Weld Neck Flanges
         </Link>
         <nav className="hidden md:flex gap-8">
