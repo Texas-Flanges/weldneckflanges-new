@@ -51,7 +51,7 @@ export default function Home() {
       <section
         className="rv"
         style={{
-          backgroundImage: "linear-gradient(rgba(26,58,92,0.65), rgba(26,58,92,0.65)), url(/TF-HEADER.jpg)",
+          backgroundImage: "linear-gradient(rgba(10,30,50,0.75), rgba(10,30,50,0.75)), url(/TF-HEADER.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           padding: "100px 40px",
@@ -63,7 +63,7 @@ export default function Home() {
         }}
       >
         <div style={{ maxWidth: "800px" }}>
-          <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700, marginBottom: "12px", lineHeight: 1.1 }}>
+          <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700, marginBottom: "12px", lineHeight: 1.1, textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Weld Neck Flanges
           </h1>
           <p style={{ fontSize: "17px", opacity: 0.9, marginBottom: "24px" }}>
@@ -82,6 +82,30 @@ export default function Home() {
       {/* Since 1986 Banner */}
       <section className="rv" style={{ background: "linear-gradient(135deg, #111 0%, #1a1a2e 100%)", padding: "12px 40px", textAlign: "center" }}>
         <p style={{ color: "#fff", fontSize: "18px", fontWeight: 600, letterSpacing: "3px", margin: 0 }}>SINCE 1986</p>
+      </section>
+
+      {/* Why Are Weld Necks The Ideal Flange? */}
+      <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#fff" }}>
+        <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "24px" }}>Why Are Weld Necks The Ideal Flange?</h2>
+          <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
+            Weld neck flanges are the go-to choice for most piping applications — and for good reason. They feature a neck extension with a weld bevel at the end, which lets them connect directly to pipe in a way that feels almost seamless. In larger sizes and higher pressure classes, you'll rarely see anything else used. If there were only one bored flange style to choose from, the weld neck would probably win every time (yes, you still need a blind flange to cap the line off).
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
+            Here's how the connection works: the weld bevel meets a matching bevel on the pipe end in a V-shaped joint, allowing for a clean, circular weld all the way around. The result is a smooth, unified transition that lets gas or liquid flow through with very little restriction. After welding, the joint gets inspected to make sure the seal is solid and free of any defects.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
+            Another thing that sets weld neck flanges apart is the standardized, tapered hub. Rather than an abrupt change between pipe and flange, the hub creates a gradual shift that spreads out pressure forces more evenly at a nice angle, like the slope of a mountain. This makes a real difference in high-pressure, high-temperature environments where stress and shock are constant concerns — the extra material along that transition helps absorb it all.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444" }}>
+            Because weld necks are the standard for high-pressure applications, they're often paired with a ring type joint (RTJ) face. This sealing surface uses a metal gasket that gets compressed between the grooves of two connecting flanges, forming an exceptionally tight seal. Combined with the strength of the weld bevel connection, an RTJ weld neck with a metal gasket is the top pick whenever the stakes are high, and are even required in some specifications such as for API 6A flanges.
+          </p>
+          <div style={{ marginTop: "32px" }}>
+            <a href="https://www.texasflange.com/weld-neck-flanges/" style={{ display: "inline-block", backgroundColor: "#1a3a5c", color: "#fff", padding: "14px 32px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>
+              View Weld Neck Flanges at Texas Flange →
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* About Section */}
