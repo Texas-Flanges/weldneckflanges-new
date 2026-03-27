@@ -94,6 +94,10 @@ export default function Home() {
           <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
             Here's how the connection works: the weld bevel meets a matching bevel on the pipe end in a V-shaped joint, allowing for a clean, circular weld all the way around. The result is a smooth, unified transition that lets gas or liquid flow through with very little restriction. After welding, the joint gets inspected to make sure the seal is solid and free of any defects.
           </p>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <div style={{ textAlign: "center", margin: "32px 0" }}>
+            <img src="/weld-neck-drawing.jpg" alt="Weld neck flange technical drawing with dimensions" style={{ maxWidth: "420px", width: "100%", border: "2px solid #1a3a5c", borderRadius: "8px", padding: "12px", backgroundColor: "#fff" }} />
+          </div>
           <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
             Another thing that sets weld neck flanges apart is the standardized, tapered hub. Rather than an abrupt change between pipe and flange, the hub creates a gradual shift that spreads out pressure forces more evenly at a nice angle, like the slope of a mountain. This makes a real difference in high-pressure, high-temperature environments where stress and shock are constant concerns — the extra material along that transition helps absorb it all.
           </p>
