@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a { text-decoration: none; transition: color 0.3s ease; }
+[class*="bg-[#1B1F23]"] h1, [class*="bg-[#1B1F23]"] h2, [class*="bg-[#1B1F23]"] h3,
+[class*="bg-[#1B1F23]"] h4, [class*="bg-[#1B1F23]"] h5, [class*="bg-[#1B1F23]"] h6 { color: white !important; }
+.prose-content a { color: #0D9488; font-weight: 600; }
+.prose-content a:hover { text-decoration: underline; }

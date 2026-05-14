@@ -1,0 +1,16 @@
+import Link from "next/link";
+export default function NotFound() {
+  return (
+    <section className="bg-[#1B1F23] text-white py-32 px-4">
+      <div className="max-w-2xl mx-auto text-center">
+        <p className="text-[#0D9488] uppercase tracking-widest text-sm mb-4">404</p>
+        <h1 className="font-display text-5xl mb-6 text-white">Page Not Found</h1>
+        <p className="text-gray-300 mb-8 text-lg leading-relaxed">The page you were looking for is not at this address. Try the homepage or send the part description and we will find it.</p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/" className="bg-[#0D9488] text-white px-6 py-3 rounded font-semibold hover:bg-[#0F766E] transition">Back to Home</Link>
+          <a href="tel:2814848325" className="border border-white text-white px-6 py-3 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">Call (281) 484-8325</a>
+        </div>
+      </div>
+    </section>
+  );
+}
