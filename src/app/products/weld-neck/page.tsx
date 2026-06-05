@@ -31,6 +31,22 @@ export default function WeldNeckPage() {
           <p className="text-gray-700 leading-relaxed">High pressure wellhead and frac tree weld necks 10000, 15000, 20000, and 25000 PSI. BX-series ring gaskets with self-energizing geometry. Sour service classes DD, EE, FF, HH for H2S environments.</p>
         </div>
       </div>
+      <h2 className="font-display text-3xl font-bold text-[#1B1F23] mb-6">Long Weld Neck Sub-Styles</h2>
+      <p className="text-gray-700 leading-relaxed mb-6">ASME B16.5 section 2.8 covers "straight hub welding flanges" - the long weld neck (LWN) family. These are forged from a single billet with an extended straight hub that becomes the vessel nozzle or fitting body. There is no weld between the flange ring and the pipe; the long hub itself is the connection. Three sub-styles cover the catalog:</p>
+      <div className="space-y-4 mb-12">
+        <div className="bg-white border-l-4 border-[#0D9488] p-6">
+          <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-2">Long Weld Neck (Standard LWN)</h3>
+          <p className="text-gray-700 leading-relaxed">Bore matched to standard pipe schedule. Extended straight hub (typically 6 inch through 12 inch overall hub length depending on size and class). The default sub-style for column and vessel nozzles where a forged one-piece connection is preferred over a weld neck plus nipple assembly.</p>
+        </div>
+        <div className="bg-white border-l-4 border-[#0D9488] p-6">
+          <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-2">Heavy Barrel LWN</h3>
+          <p className="text-gray-700 leading-relaxed">Hub OD is larger than standard pipe OD. The thick-wall barrel handles erosion, high-velocity service, and applications where the hub is bored on assembly to match a non-standard internal diameter. Common on reactor and high-pressure vessel nozzles.</p>
+        </div>
+        <div className="bg-white border-l-4 border-[#0D9488] p-6">
+          <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-2">Equal Barrel LWN</h3>
+          <p className="text-gray-700 leading-relaxed">Hub OD matches the flange ring OD over the full hub length. The geometry creates a column-like cross-section that resists external bending loads. Used on tall nozzles and on instrument connections where the nozzle takes structural moment from external piping or supports.</p>
+        </div>
+      </div>
       <h2 className="font-display text-3xl font-bold text-[#1B1F23] mb-6">Standard Configurations</h2>
       <p className="text-gray-700 leading-relaxed mb-6">Hub length, bore taper, and weld bevel dimensions all follow the governing standard. Bore is matched to the mating pipe schedule. Custom bores, special bevels, and counterbore conditions are available as custom machining work.</p>
       <h2 className="font-display text-3xl font-bold text-[#1B1F23] mb-6">Materials</h2>

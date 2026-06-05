@@ -18,7 +18,7 @@ const faqs = [
   { q: "Do you supply weld neck flanges with NACE MR0175 compliance?",
     a: "Yes. NACE sour service flanges in A105, A350 LF2, A694, F22, F91, and F316L are available with the supplementary hardness testing and chemistry restrictions the standard requires. The MTR shows the hardness data, the heat treatment record, and the NACE annex applicable to the order." },
   { q: "What is the largest weld neck flange you can supply?",
-    a: "ASME B16.5 caps at 24 inch nominal. ASME B16.47 Series A and B cover 26 inch through 60 inch. Above 60 inch, weld neck construction continues as custom-fabricated hubbed plate flanges. We have supplied weld neck configurations out to 144 inch on transmission projects, with the hub rolled or cast separately and welded to the plate-cut flange face under full penetration weld with 100 percent NDE." },
+    a: "ASME B16.5 caps at 24 inch nominal. ASME B16.47 Series A and B cover 26 inch through 60 inch. Above 60 inch, weld neck construction continues as custom-fabricated hubbed plate flanges. Weld neck configurations are available out to 144 inch as custom plate-cut and hubbed assemblies, with the hub rolled or cast separately and welded to the plate-cut flange face under full penetration weld with 100 percent NDE." },
   { q: "How fast can you turn around a quote?",
     a: "Send the dimension, pressure class, material grade, and facing. Quotes on stock items typically return same day. Custom and exotic alloy work may need a day or two to confirm mill availability on the specific heat lots." }
 ];
@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto">
           <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-4">From Lightweight to 20000 PSI</p>
           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">Weld Neck Flanges. Every Pressure Class.</h1>
-          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-10">The tapered hub and matched weld bevel that make a weld neck flange work scale across the full pressure spectrum. Lightweight Class 125LW for waterworks, ASME B16.5 catalog through Class 2500 for plant process, MSS SP-44 for pipeline pressure, and API 6A through 6BX for wellhead and high pressure production. Carbon through Hastelloy.</p>
+          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-10">The tapered hub and matched weld bevel that make a weld neck flange work scale across the full pressure spectrum. Lightweight Class 125LW for waterworks, ASME B16.5 catalog through Class 2500 for plant process, MSS SP-44 for pipeline pressure, and API 6A through 6BX for wellhead and high pressure production. Carbon through Hastelloy. When the spec is ready to source, this resource hands off to <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges-new" className="text-[#0D9488] hover:text-white underline">Texas Flange weld neck supply</a>.</p>
           <div className="flex flex-wrap gap-4">
             <Link href="/contact" className="bg-[#0D9488] text-white px-8 py-4 rounded font-semibold hover:bg-[#0F766E] transition">Request a Quote</Link>
             <Link href="/products/weld-neck" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">Browse the Catalog</Link>
@@ -42,7 +42,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div><p className="font-display text-4xl font-bold">125LW</p><p className="text-sm uppercase tracking-wide mt-1">Lightest Class</p></div>
           <div><p className="font-display text-4xl font-bold">20K</p><p className="text-sm uppercase tracking-wide mt-1">PSI API 6BX Max</p></div>
-          <div><p className="font-display text-4xl font-bold">203"</p><p className="text-sm uppercase tracking-wide mt-1">Custom Diameter</p></div>
+          <div><p className="font-display text-4xl font-bold">144"</p><p className="text-sm uppercase tracking-wide mt-1">Custom Diameter</p></div>
           <div><p className="font-display text-4xl font-bold">40+</p><p className="text-sm uppercase tracking-wide mt-1">Alloy Grades</p></div>
         </div>
       </section>
