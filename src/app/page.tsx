@@ -84,6 +84,73 @@ export default function Home() {
         <p style={{ color: "#fff", fontSize: "18px", fontWeight: 600, letterSpacing: "3px", margin: 0 }}>SINCE 1986</p>
       </section>
 
+      {/* The type: weld neck flanges (SEO-AI-011) */}
+      <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#f5f5f5" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "20px" }}>Weld Neck Flanges</h2>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe.
+            { color: "#2563eb", textDecoration: "underline" }ME B16.5 covers N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" } 1/2 to 24. { color: "#2563eb", textDecoration: "underline" }ME B16.47 covers the large weld necks, N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" } 26 to
+            60. Texas Flange machines weld necks and custom flanges to 203 inches, with MTRs, for
+            oil and gas and other industrial service, in carbon, stainless, and alloy.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            This is the type, not the dimension table. If you need OD, bolt circle, hub length, or
+            bore, use the class tables on texasflange.com.
+          </p>
+
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>The joint</h3>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            Pipe and hub get matching bevels. The shop puts a full-penetration circumferential
+            butt weld around that V. After weld and inspection, the bore is a smooth transition.
+            Flow does not hit a step the way it can on a slip-on fillet. The tapered hub spreads
+            load from the flange ring into the pipe wall. That is why higher class, higher
+            temperature, and cyclic service default to weld neck.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            Bore is a schedule callout. A weld neck bored to the pipe ID, not to N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }, is the usual
+            order. Tell us the schedule or the ID. Standard-bore columns on the tables are not
+            every wall.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            Facing follows the spec: RF on most process work, RTJ when the class and the mate
+            demand a ring groove. RTJ weld necks with a metal ring gasket are common on
+            higher-pressure oil and gas. Match the face. Do not mix RF and RTJ.
+          </p>
+
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Long weld neck (nozzle)</h3>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            A long weld neck is a different part. { color: "#2563eb", textDecoration: "underline" }ME B16.5 subsection 2.8 calls it a straight
+            hub welding flange and does not tabulate it the way a standard weld neck is tabulated.
+            Tank and vessel shops use it as a one-piece nozzle: flange plus barrel, no pipe weld
+            at the shell. Square-cut end is typical, not a weld bevel. Bore is often the nominal
+            size, not a pipe schedule, unless the print says otherwise. Length is on the drawing.
+          </p>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            Long-weld-neck tables are published by class, including Class 150 and Class 600
+            standard connections. Heavy barrel and equal barrel are separate geometries. Send the
+            length, barrel OD, and grade. Do not treat a long weld neck as a standard weld neck
+            with extra hub. The weld prep and the bore rules are different. Nozzle connections are
+            machined with varying wall thickness when the vessel outlet needs more metal. Carbon,
+            stainless, and nickel alloys are all in play on a nozzle RFQ.
+          </p>
+
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Numbers live on the tables</h3>
+          <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
+            OD and bolt counts are not reprinted here.{" "}
+            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://www.texasflange.com/weld-neck-flanges/?ref=weldneckflanges">Weld neck type page</a>
+            {" · "}
+            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges">B16.5 hub tables</a>
+            {" · "}
+            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/class-150/?ref=weldneckflanges">Class 150</a>
+            {" · "}
+            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-150-lwn/?ref=weldneckflanges">LWN Class 150</a>
+            {" · "}
+            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-600-lwn/?ref=weldneckflanges">LWN Class 600</a>
+          </p>
+        </div>
+      </section>
+
       {/* Why Are Weld Necks The Ideal Flange? */}
       <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
