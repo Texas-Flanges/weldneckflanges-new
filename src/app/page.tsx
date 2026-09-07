@@ -90,7 +90,7 @@ export default function Home() {
           <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "20px" }}>Weld Neck Flanges</h2>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe.
-            { color: "#2563eb", textDecoration: "underline" }ME B16.5 covers N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" } 1/2 to 24. { color: "#2563eb", textDecoration: "underline" }ME B16.47 covers the large weld necks, N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" } 26 to
+            ASME B16.5 covers NPS 1/2 to 24. ASME B16.47 covers the large weld necks, NPS 26 to
             60. Texas Flange machines weld necks and custom flanges to 203 inches, with MTRs, for
             oil and gas and other industrial service, in carbon, stainless, and alloy.
           </p>
@@ -108,7 +108,7 @@ export default function Home() {
             temperature, and cyclic service default to weld neck.
           </p>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
-            Bore is a schedule callout. A weld neck bored to the pipe ID, not to N{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }, is the usual
+            Bore is a schedule callout. A weld neck bored to the pipe ID, not to NPS, is the usual
             order. Tell us the schedule or the ID. Standard-bore columns on the tables are not
             every wall.
           </p>
@@ -120,7 +120,7 @@ export default function Home() {
 
           <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Long weld neck (nozzle)</h3>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
-            A long weld neck is a different part. { color: "#2563eb", textDecoration: "underline" }ME B16.5 subsection 2.8 calls it a straight
+            A long weld neck is a different part. ASME B16.5 subsection 2.8 calls it a straight
             hub welding flange and does not tabulate it the way a standard weld neck is tabulated.
             Tank and vessel shops use it as a one-piece nozzle: flange plus barrel, no pipe weld
             at the shell. Square-cut end is typical, not a weld bevel. Bore is often the nominal
