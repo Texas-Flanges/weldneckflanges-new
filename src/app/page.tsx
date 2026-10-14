@@ -63,7 +63,7 @@ export default function Home() {
         }}
       >
         <div style={{ maxWidth: "800px" }}>
-          <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700, marginBottom: "12px", lineHeight: 1.1, textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+          <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700, color: "#fff", marginBottom: "12px", lineHeight: 1.1, textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Weld Neck Flanges
           </h1>
           <p style={{ fontSize: "17px", opacity: 0.9, marginBottom: "24px" }}>
