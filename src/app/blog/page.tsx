@@ -1,15 +1,23 @@
 import type { Metadata } from "next";
 import { SiteNav } from "@/components/SiteNav";
 import { CurrentYear } from "@/components/CurrentYear";
+import { OG_IMAGE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Blog | Weld Neck Flanges",
-  description: "Technical articles and guides about weld neck flanges, steel flanges, materials, installation, and pricing.",
+  description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
   alternates: {
     canonical: "https://weldneckflanges.com/blog",
   },
   openGraph: {
     url: "https://weldneckflanges.com/blog",
+    description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
+    images: [OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
+    images: [OG_IMAGE],
   },
 };
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SiteNav } from "@/components/SiteNav";
 import { CurrentYear } from "@/components/CurrentYear";
+import { OG_IMAGE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Weld Neck Flanges",
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
     url: "https://weldneckflanges.com/privacy-policy",
     siteName: "Weld Neck Flanges",
     type: "website",
+    images: [OG_IMAGE],
   },
   alternates: {
     canonical: "https://weldneckflanges.com/privacy-policy",

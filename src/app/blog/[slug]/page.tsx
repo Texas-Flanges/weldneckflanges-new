@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getBlogPosts, getBlogPostBySlug } from "@/lib/blog";
 import { SiteNav } from "@/components/SiteNav";
 import { CurrentYear } from "@/components/CurrentYear";
+import { OG_IMAGE } from "@/lib/seo";
 
 const BASE_URL = "https://weldneckflanges.com";
 const AUTHOR = "Engineering Team";
@@ -49,6 +50,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       type: "article",
       publishedTime: post.date,
       authors: [AUTHOR],
+      images: [OG_IMAGE],
     },
   };
 }

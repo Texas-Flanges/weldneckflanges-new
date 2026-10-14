@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { SiteNav } from "@/components/SiteNav";
 import { CurrentYear } from "@/components/CurrentYear";
+import { OG_IMAGE } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Weld Neck Flanges | ASME B16.5 and B16.47 Reference",
@@ -12,13 +13,13 @@ export const metadata: Metadata = {
     url: "https://weldneckflanges.com",
     siteName: "Weld Neck Flanges",
     type: "website",
-    images: ["https://weldneckflanges.com/hero-weld-neck.jpg"],
+    images: [OG_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title: "Weld Neck Flanges | ASME B16.5 and B16.47 Reference",
     description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
-    images: ["https://weldneckflanges.com/hero-weld-neck.jpg"],
+    images: [OG_IMAGE],
   },
   alternates: {
     canonical: "https://weldneckflanges.com",
@@ -283,6 +284,42 @@ export default function Home() {
             telephone: "+1-281-484-8325",
             email: "sales@texasflange.com",
             description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "What is a weld neck flange?",
+                acceptedAnswer: { "@type": "Answer", text: "A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe. ASME B16.5 covers NPS 1/2 to 24. ASME B16.47 covers the large weld necks, NPS 26 to 60." },
+              },
+              {
+                "@type": "Question",
+                name: "How is a weld neck flange joined to the pipe?",
+                acceptedAnswer: { "@type": "Answer", text: "Pipe and hub get matching bevels. The shop puts a full-penetration circumferential butt weld around that V. After weld and inspection, the bore is a smooth transition. Flow does not hit a step the way it can on a slip-on fillet." },
+              },
+              {
+                "@type": "Question",
+                name: "Why are weld necks used in high-pressure and high-temperature service?",
+                acceptedAnswer: { "@type": "Answer", text: "The tapered hub spreads load from the flange ring into the pipe wall. That is why higher class, higher temperature, and cyclic service default to weld neck. In larger sizes and higher pressure classes, you'll rarely see anything else used." },
+              },
+              {
+                "@type": "Question",
+                name: "Should a weld neck flange have an RF or RTJ face?",
+                acceptedAnswer: { "@type": "Answer", text: "Facing follows the spec: RF on most process work, RTJ when the class and the mate demand a ring groove. RTJ weld necks with a metal ring gasket are common on higher-pressure oil and gas. Match the face. Do not mix RF and RTJ." },
+              },
+              {
+                "@type": "Question",
+                name: "What is a long weld neck flange?",
+                acceptedAnswer: { "@type": "Answer", text: "A long weld neck is a different part. Tank and vessel shops use it as a one-piece nozzle: flange plus barrel, no pipe weld at the shell. Square-cut end is typical, not a weld bevel. Do not treat a long weld neck as a standard weld neck with extra hub. The weld prep and the bore rules are different." },
+              },
+            ],
           }),
         }}
       />
