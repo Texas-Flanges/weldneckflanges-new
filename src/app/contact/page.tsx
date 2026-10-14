@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="w-full">
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-12">
+      <section className="bg-[#1B1F23] text-white py-12">
         <div className="container-wide">
           <h1 className="text-4xl font-bold">Contact Us</h1>
           <p className="text-lg mt-2">We are here to assist you with all your piping flange needs</p>
@@ -23,11 +23,11 @@ export default function ContactPage() {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-xl font-bold mb-2">Phone</h3>
-                  <p className="text-lg"><a href="tel:+1-281-484-8325" className="text-blue-600 hover:text-blue-800">281-484-8325</a></p>
+                  <p className="text-lg"><a href="tel:+1-281-484-8325" className="text-[#B45309] hover:text-[#1B1F23]">281-484-8325</a></p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Email</h3>
-                  <p className="text-lg"><a href="mailto:sales@texasflange.com" className="text-blue-600 hover:text-blue-800">sales@texasflange.com</a></p>
+                  <p className="text-lg"><a href="mailto:sales@texasflange.com" className="text-[#B45309] hover:text-[#1B1F23]">sales@texasflange.com</a></p>
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Hours</h3>
@@ -35,7 +35,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">Website</h3>
-                  <p className="text-lg"><a href="https://texasflange.com/?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">texasflange.com</a></p>
+                  <p className="text-lg"><a href="https://texasflange.com/?ref=weldneckflanges" target="_blank" rel="noopener noreferrer" className="text-[#B45309] hover:text-[#1B1F23]">texasflange.com</a></p>
                 </div>
               </div>
             </div>

@@ -44,12 +44,19 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-split">
         <div className="hero-split-panel">
-          <p className="hero-eyebrow">ASME B16.5 · B16.47 Reference</p>
-          <h1>Weld Neck Flanges</h1>
-          <p className="hero-lede">How tapered-hub, butt-weld flanges work, where they&apos;re used, and how to spec them.</p>
-          <div className="hero-actions">
-            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" className="hero-cta">Request a Quote</a>
-            <a href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges" className="hero-link">Dimension tables ↗</a>
+          <div className="hero-split-inner">
+            <p className="hero-eyebrow">ASME B16.5 · B16.47 Reference</p>
+            <h1>Weld Neck Flanges</h1>
+            <p className="hero-lede">How tapered-hub, butt-weld flanges work, where they&apos;re used, and how to spec them.</p>
+            <div className="hero-actions">
+              <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" className="hero-cta">Request a Quote</a>
+              <a href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges" className="hero-link">
+                Dimension tables
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M4 10L10 4M5 4h5v5" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
         <div className="hero-split-photo">
@@ -79,7 +86,7 @@ export default function Home() {
       {/* The type: weld neck flanges (SEO-AI-011) */}
       <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#f5f5f5" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "20px" }}>How a Weld Neck Flange Works</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1B1F23", marginBottom: "20px" }}>How a Weld Neck Flange Works</h2>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe.
             ASME B16.5 covers NPS 1/2 to 24. ASME B16.47 covers the large weld necks, NPS 26 to
@@ -91,7 +98,7 @@ export default function Home() {
             bore, use the class tables on texasflange.com.
           </p>
 
-          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>The joint</h3>
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1B1F23", margin: "32px 0 12px" }}>The joint</h3>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             Pipe and hub get matching bevels. The shop puts a full-penetration circumferential
             butt weld around that V. After weld and inspection, the bore is a smooth transition.
@@ -110,7 +117,7 @@ export default function Home() {
             higher-pressure oil and gas. Match the face. Do not mix RF and RTJ.
           </p>
 
-          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Long weld neck (nozzle)</h3>
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1B1F23", margin: "32px 0 12px" }}>Long weld neck (nozzle)</h3>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             A long weld neck is a different part. ASME B16.5 subsection 2.8 calls it a straight
             hub welding flange and does not tabulate it the way a standard weld neck is tabulated.
@@ -127,7 +134,7 @@ export default function Home() {
             stainless, and nickel alloys are all in play on a nozzle RFQ.
           </p>
 
-          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Numbers live on the tables</h3>
+          <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1B1F23", margin: "32px 0 12px" }}>Numbers live on the tables</h3>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             OD and bolt counts are not reprinted here.{" "}
             <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges">Weld neck type page</a>
@@ -146,7 +153,7 @@ export default function Home() {
       {/* Why Are Weld Necks The Ideal Flange? */}
       <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "24px" }}>Why Are Weld Necks The Ideal Flange?</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1B1F23", marginBottom: "24px" }}>Why Are Weld Necks The Ideal Flange?</h2>
           <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
             Weld neck flanges are the go-to choice for most piping applications - and for good reason. They feature a neck extension with a weld bevel at the end, which lets them connect directly to pipe in a way that feels almost seamless. In larger sizes and higher pressure classes, you'll rarely see anything else used. If there were only one bored flange style to choose from, the weld neck would probably win every time (yes, you still need a blind flange to cap the line off).
           </p>
@@ -155,7 +162,7 @@ export default function Home() {
           </p>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <div style={{ textAlign: "center", margin: "32px 0" }}>
-            <img src="/weld-neck-drawing.jpg" alt="Weld neck flange technical drawing with dimensions" style={{ maxWidth: "420px", width: "100%", border: "2px solid #1a3a5c", borderRadius: "8px", padding: "12px", backgroundColor: "#fff" }} />
+            <img src="/weld-neck-drawing.jpg" alt="Weld neck flange technical drawing with dimensions" style={{ maxWidth: "420px", width: "100%", border: "2px solid #1B1F23", borderRadius: "8px", padding: "12px", backgroundColor: "#fff" }} />
           </div>
           <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444", marginBottom: "20px" }}>
             Another thing that sets weld neck flanges apart is the standardized, tapered hub. Rather than an abrupt change between pipe and flange, the hub creates a gradual shift that spreads out pressure forces more evenly at a nice angle, like the slope of a mountain. This makes a real difference in high-pressure, high-temperature environments where stress and shock are constant concerns - the extra material along that transition helps absorb it all.
@@ -164,7 +171,7 @@ export default function Home() {
             Because weld necks are the standard for high-pressure applications, they're often paired with a ring type joint (RTJ) face. This sealing surface uses a metal gasket that gets compressed between the grooves of two connecting flanges, forming an exceptionally tight seal. Combined with the strength of the weld bevel connection, an RTJ weld neck with a metal gasket is the top pick whenever the stakes are high, and are even required in some specifications such as for API 6A flanges.
           </p>
           <div style={{ marginTop: "32px" }}>
-            <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" style={{ display: "inline-block", backgroundColor: "#1a3a5c", color: "#fff", padding: "14px 32px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>
+            <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" style={{ display: "inline-block", backgroundColor: "#B45309", color: "#fff", padding: "14px 32px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>
               View Weld Neck Flanges at Texas Flange →
             </a>
           </div>
@@ -174,7 +181,7 @@ export default function Home() {
       {/* Products Section */}
       <section id="products" className="rv" style={{ padding: "80px 40px", backgroundColor: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "16px" }}>WHY US?</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1B1F23", marginBottom: "16px" }}>WHY US?</h2>
           <p style={{ fontSize: "20px", color: "#B45309", fontWeight: 600, marginBottom: "32px" }}>1/2&quot; &ndash; 203&quot; INDUSTRIAL FLANGES</p>
           <h3 style={{ fontSize: "22px", fontWeight: 600, color: "#333", marginBottom: "20px" }}>We provide:</h3>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "16px" }}>
@@ -201,32 +208,32 @@ export default function Home() {
       </section>
 
       {/* Materials Section */}
-      <section id="materials" className="rv" style={{ padding: "80px 40px", backgroundColor: "#1a3a5c", color: "#fff" }}>
+      <section id="materials" className="rv" style={{ padding: "80px 40px", backgroundColor: "#1B1F23", color: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#fff", marginBottom: "32px" }}>Materials Used</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>CARBON STEEL</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>CARBON STEEL</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>ASTM/ASME SA-105, A-350 LF-2, LF-3, A694, SA-516-70, A36</p>
             </div>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>CHROME ALLOYS</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>CHROME ALLOYS</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>A-182-F-1, F-5, F-6, F-9, F-91, F-11, F-12, F-22</p>
             </div>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>STAINLESS STEEL</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>STAINLESS STEEL</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>A-182: F-304, 304/304L, 316/316L, 304H, 316H, 309, 310, 317L, 321, 347, 347H, 904L, Alloy 20, and other H grades</p>
             </div>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>SPECIALTY ALLOYS</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>SPECIALTY ALLOYS</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>Hastelloy B-2, C-276, G, X, C-22 | Inconel 600, 601, 625, 718 | Incoloy 800, 825, 800H, 800HT | Monel 400</p>
             </div>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>ALUMINUM</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>ALUMINUM</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>3003, 6061, 5083 and other grades upon request</p>
             </div>
             <div>
-              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>OTHER MATERIALS</h3>
+              <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#FDBA74", marginBottom: "8px" }}>OTHER MATERIALS</h3>
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>Copper 90/10, 70/30 | Duplex F51/2205, F53/2507 | Titanium Gr2, Gr12</p>
             </div>
           </div>
@@ -251,14 +258,14 @@ export default function Home() {
           <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#fff", marginBottom: "16px" }}>Weld Neck Flanges</h3>
           <p style={{ marginBottom: "8px" }}>Have questions? Contact us.</p>
           <p style={{ marginBottom: "8px" }}>
-            Phone: <a href="tel:+1-281-484-8325" style={{ color: "#93c5fd", textDecoration: "none" }}>281-484-8325</a>
+            Phone: <a href="tel:+1-281-484-8325" style={{ color: "#FDBA74", textDecoration: "none" }}>281-484-8325</a>
           </p>
           <p style={{ marginBottom: "8px" }}>
-            Email: <a href="mailto:sales@texasflange.com" style={{ color: "#93c5fd", textDecoration: "none" }}>sales@texasflange.com</a>
+            Email: <a href="mailto:sales@texasflange.com" style={{ color: "#FDBA74", textDecoration: "none" }}>sales@texasflange.com</a>
           </p>
           <p style={{ marginBottom: "16px" }}>
-            <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>More Information</a> {" | "}
-            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+            <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>More Information</a> {" | "}
+            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Request a Quote</a>
           </p>
           <p style={{ fontSize: "13px", color: "#888", marginTop: "20px" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
         </div>

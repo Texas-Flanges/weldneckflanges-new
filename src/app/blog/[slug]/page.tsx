@@ -72,12 +72,12 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
 
       {/* Breadcrumb */}
       <div style={{ padding: "16px 40px", backgroundColor: "#f8f9fa", fontSize: "14px" }} className="post-crumbs">
-        <a href="/" style={{ color: "#1a3a5c", textDecoration: "none" }}>Home</a> / <a href="/blog" style={{ color: "#1a3a5c", textDecoration: "none" }}>Blog</a>
+        <a href="/" style={{ color: "#1B1F23", textDecoration: "none" }}>Home</a> / <a href="/blog" style={{ color: "#1B1F23", textDecoration: "none" }}>Blog</a>
       </div>
 
       <article style={{ padding: "48px 40px 64px", backgroundColor: "#fff" }} className="post-article">
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
-          <h1 style={{ fontSize: "38px", fontWeight: 700, color: "#1a3a5c", lineHeight: 1.2, marginBottom: "12px" }}>{post.title}</h1>
+          <h1 style={{ fontSize: "38px", fontWeight: 700, color: "#1B1F23", lineHeight: 1.2, marginBottom: "12px" }}>{post.title}</h1>
           <p style={{ fontSize: "14px", color: "#5F6B7A", marginBottom: "32px" }}>
             {AUTHOR} · <time dateTime={post.date}>{formatDate(post.date)}</time>
           </p>
@@ -91,8 +91,8 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
       {/* Footer */}
       <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
         <p style={{ marginBottom: "8px" }}>
-          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
-          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Texas Flange</a> {" | "}
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Request a Quote</a>
         </p>
         <p style={{ fontSize: "13px", color: "#888" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
       </footer>

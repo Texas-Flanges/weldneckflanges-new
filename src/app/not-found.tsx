@@ -10,7 +10,7 @@ export default function NotFound() {
     <>
       <SiteNav />
       <section style={{ padding: "80px 16px", textAlign: "center" }}>
-        <h1 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "12px" }}>Page not found</h1>
+        <h1 style={{ fontSize: "32px", fontWeight: 700, color: "#1B1F23", marginBottom: "12px" }}>Page not found</h1>
         <p style={{ fontSize: "17px", color: "#444", marginBottom: "24px" }}>That page doesn&apos;t exist.</p>
         <a href="/">Back to the homepage</a>
       </section>

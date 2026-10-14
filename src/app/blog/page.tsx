@@ -49,7 +49,7 @@ export default function BlogPage() {
         <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
           {posts.map((post, i) => (
             <a key={i} href={`/blog/${post.slug}`} style={{ display: "block", backgroundColor: "#fff", borderRadius: "12px", padding: "28px", boxShadow: "0 1px 4px rgba(0,0,0,0.08)", textDecoration: "none", color: "inherit" }}>
-              <h2 style={{ fontSize: "18px", fontWeight: 600, color: "#1a3a5c", marginBottom: "8px", lineHeight: 1.4 }}>{post.title}</h2>
+              <h2 style={{ fontSize: "18px", fontWeight: 600, color: "#1B1F23", marginBottom: "8px", lineHeight: 1.4 }}>{post.title}</h2>
               <p style={{ fontSize: "14px", color: "#5F6B7A", marginBottom: "12px" }}>{post.date}</p>
               <p style={{ fontSize: "15px", color: "#555", lineHeight: 1.6, margin: 0 }}>{post.excerpt}</p>
             </a>
@@ -60,8 +60,8 @@ export default function BlogPage() {
       {/* Footer */}
       <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
         <p style={{ marginBottom: "8px" }}>
-          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
-          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Texas Flange</a> {" | "}
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Request a Quote</a>
         </p>
         <p style={{ fontSize: "13px", color: "#888" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
       </footer>
