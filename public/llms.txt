@@ -1,22 +1,19 @@
 # Weld Neck Flanges
-> Weld neck flange specialists
+> Reference site for weld neck flanges: how they work, where they're used, and how to spec them.
 
 ## About
-Specialized weld neck flanges offering superior strength and reliability for critical piping applications. We provide industry-leading weld neck specialists with exceptional quality and expert support. Serving the I-10 East Refinery Corridor with products that meet or exceed ASME, ANSI, and API standards.
+Weld Neck Flanges (weldneckflanges.com) is an informational resource on weld neck flanges used in piping systems, pressure vessels and industrial service.
+
+## Topics
+- Weld neck flanges per ASME B16.5 (NPS 1/2 to 24) and ASME B16.47 (NPS 26 to 60)
+- Long weld neck (nozzle) flanges
+- Facings: raised face (RF) and ring type joint (RTJ)
+- Materials: carbon steel, stainless steel, alloy steel
+
+## Standards
+ASME B16.5, ASME B16.47, API 6A, ASTM material specifications
 
 ## Contact
 - Phone: 281-484-8325
 - Email: sales@texasflange.com
-- Website: https://texasflange.com
-
-## Services
-- Weld Neck Specialists supply and distribution
-- Custom flange manufacturing
-- Technical consulting
-- Rush order fulfillment
-
-## Standards
-- ASME B16.5, B16.47
-- ANSI standards
-- API 605, 6A
-- AWWA C207
+- Quote requests: https://texasflange.com/contact-us/?ref=weldneckflanges

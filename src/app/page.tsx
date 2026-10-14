@@ -1,20 +1,24 @@
 import type { Metadata } from "next";
+import { SiteNav } from "@/components/SiteNav";
+import { CurrentYear } from "@/components/CurrentYear";
 
 export const metadata: Metadata = {
-  title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
-  description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges. Carbon Steel, Stainless, Alloy Flanges per ASME, ANSI, AWWA, API. Since 1986.",
-  keywords: ["weld neck flanges", "steel flanges", "pipe flanges", "flange supplier", "ASME flanges", "ANSI flanges", "Texas Flange", "carbon steel flanges", "stainless steel flanges"],
+  title: "Weld Neck Flanges | ASME B16.5 and B16.47 Reference",
+  description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
+  keywords: ["weld neck flanges", "steel flanges", "pipe flanges", "ASME flanges", "ANSI flanges", "carbon steel flanges", "stainless steel flanges"],
   openGraph: {
-    title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
-    description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges in carbon steel, stainless steel, and alloys.",
+    title: "Weld Neck Flanges | ASME B16.5 and B16.47 Reference",
+    description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
     url: "https://weldneckflanges.com",
     siteName: "Weld Neck Flanges",
     type: "website",
+    images: ["https://weldneckflanges.com/hero-weld-neck.jpg"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Weld Neck Flanges - Premium Quality Flanges by Texas Flange",
-    description: "Manufacturing and supplying a complete line of weld neck flanges and steel pipe flanges.",
+    title: "Weld Neck Flanges | ASME B16.5 and B16.47 Reference",
+    description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
+    images: ["https://weldneckflanges.com/hero-weld-neck.jpg"],
   },
   alternates: {
     canonical: "https://weldneckflanges.com",
@@ -35,64 +39,52 @@ export default function Home() {
         }}
       />
 
-      {/* Navigation */}
-      <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 40px", backgroundColor: "#1a3a5c", color: "#fff", position: "sticky", top: 0, zIndex: 50 }}>
-        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Weld Neck Flanges</a>
-        <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
-          <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
-          <a href="/blog" style={{ color: "#fff", textDecoration: "none" }}>Blog</a>
-          <a href="#products" style={{ color: "#fff", textDecoration: "none" }}>Products</a>
-          <a href="#materials" style={{ color: "#fff", textDecoration: "none" }}>Materials</a>
-          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
-        </div>
-      </nav>
+      <SiteNav />
 
       {/* Hero Section */}
-      <section
-        className="rv"
-        style={{
-          backgroundImage: "linear-gradient(rgba(10,30,50,0.75), rgba(10,30,50,0.75)), url(/TF-HEADER.jpg)",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          padding: "100px 40px",
-          color: "#fff",
-          minHeight: "480px",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
-        <div style={{ maxWidth: "800px" }}>
-          <h1 style={{ fontSize: "clamp(36px, 5vw, 56px)", fontWeight: 700, color: "#fff", marginBottom: "12px", lineHeight: 1.1, textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
-            Weld Neck Flanges
-          </h1>
-          <p style={{ fontSize: "17px", opacity: 0.9, marginBottom: "24px" }}>
-            Carbon Steel / Stainless / Alloy Flanges per ASME / ANSI / AWWA / API
-          </p>
-          <p style={{ fontSize: "clamp(18px, 2.5vw, 24px)", marginBottom: "36px", lineHeight: 1.6 }}>
-            Manufacturing and Supplying a complete line of Pipe Flanges with Multiple materials available.
-          </p>
-          <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "14px 36px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>Get Started</a>
-            <a href="https://www.texasflange.com" style={{ color: "#fff", padding: "14px 36px", textDecoration: "none", fontWeight: 500, fontSize: "16px", border: "2px solid rgba(255,255,255,0.5)", borderRadius: "6px" }}>Visit Texas Flange</a>
+      <section className="hero-split">
+        <div className="hero-split-panel">
+          <p className="hero-eyebrow">ASME B16.5 · B16.47 Reference</p>
+          <h1>Weld Neck Flanges</h1>
+          <p className="hero-lede">How tapered-hub, butt-weld flanges work, where they&apos;re used, and how to spec them.</p>
+          <div className="hero-actions">
+            <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" className="hero-cta">Request a Quote</a>
+            <a href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges" className="hero-link">Dimension tables ↗</a>
           </div>
+        </div>
+        <div className="hero-split-photo">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/hero-weld-neck.jpg" alt="Weld neck flange bolted to a mating flange" />
         </div>
       </section>
 
-      {/* Since 1986 Banner */}
-      <section className="rv" style={{ background: "linear-gradient(135deg, #111 0%, #1a1a2e 100%)", padding: "12px 40px", textAlign: "center" }}>
-        <p style={{ color: "#fff", fontSize: "18px", fontWeight: 600, letterSpacing: "3px", margin: 0 }}>SINCE 1986</p>
+      {/* Fact strip */}
+      <section className="fact-strip">
+        <div className="fact-strip-inner">
+          <div>
+            <p className="fact-label">ASME B16.5</p>
+            <p className="fact-sub">NPS 1/2 to 24</p>
+          </div>
+          <div>
+            <p className="fact-label">ASME B16.47</p>
+            <p className="fact-sub">NPS 26 to 60</p>
+          </div>
+          <div>
+            <p className="fact-label">Materials</p>
+            <p className="fact-sub">Carbon, stainless, alloy</p>
+          </div>
+        </div>
       </section>
 
       {/* The type: weld neck flanges (SEO-AI-011) */}
       <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#f5f5f5" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "20px" }}>Weld Neck Flanges</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "20px" }}>How a Weld Neck Flange Works</h2>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe.
             ASME B16.5 covers NPS 1/2 to 24. ASME B16.47 covers the large weld necks, NPS 26 to
-            60. Texas Flange machines weld necks and custom flanges to 203 inches, with MTRs, for
-            oil and gas and other industrial service, in carbon, stainless, and alloy.
+            60. Weld necks are used in oil and gas and other industrial service, in carbon, stainless
+            and alloy.
           </p>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             This is the type, not the dimension table. If you need OD, bolt circle, hub length, or
@@ -109,7 +101,7 @@ export default function Home() {
           </p>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             Bore is a schedule callout. A weld neck bored to the pipe ID, not to NPS, is the usual
-            order. Tell us the schedule or the ID. Standard-bore columns on the tables are not
+            order. Specify the schedule or the ID. Standard-bore columns on the tables are not
             every wall.
           </p>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
@@ -138,15 +130,15 @@ export default function Home() {
           <h3 style={{ fontSize: "22px", fontWeight: 700, color: "#1a3a5c", margin: "32px 0 12px" }}>Numbers live on the tables</h3>
           <p style={{ fontSize: "17px", lineHeight: 1.75, color: "#333", marginBottom: "16px" }}>
             OD and bolt counts are not reprinted here.{" "}
-            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://www.texasflange.com/weld-neck-flanges/?ref=weldneckflanges">Weld neck type page</a>
+            <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges">Weld neck type page</a>
             {" · "}
-            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges">B16.5 hub tables</a>
+            <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges">B16.5 hub tables</a>
             {" · "}
-            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/class-150/?ref=weldneckflanges">Class 150</a>
+            <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/class-150/?ref=weldneckflanges">Class 150</a>
             {" · "}
-            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-150-lwn/?ref=weldneckflanges">LWN Class 150</a>
+            <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-150-lwn/?ref=weldneckflanges">LWN Class 150</a>
             {" · "}
-            <a style={{ color: "#2563eb", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-600-lwn/?ref=weldneckflanges">LWN Class 600</a>
+            <a style={{ color: "#B45309", textDecoration: "underline" }} href="https://texasflange.com/products/flange-dims-weights/long-weld-neck-standard-connection-flanges/class-600-lwn/?ref=weldneckflanges">LWN Class 600</a>
           </p>
         </div>
       </section>
@@ -172,25 +164,9 @@ export default function Home() {
             Because weld necks are the standard for high-pressure applications, they're often paired with a ring type joint (RTJ) face. This sealing surface uses a metal gasket that gets compressed between the grooves of two connecting flanges, forming an exceptionally tight seal. Combined with the strength of the weld bevel connection, an RTJ weld neck with a metal gasket is the top pick whenever the stakes are high, and are even required in some specifications such as for API 6A flanges.
           </p>
           <div style={{ marginTop: "32px" }}>
-            <a href="https://www.texasflange.com/weld-neck-flanges/" style={{ display: "inline-block", backgroundColor: "#1a3a5c", color: "#fff", padding: "14px 32px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>
+            <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" style={{ display: "inline-block", backgroundColor: "#1a3a5c", color: "#fff", padding: "14px 32px", borderRadius: "6px", textDecoration: "none", fontWeight: 600, fontSize: "16px" }}>
               View Weld Neck Flanges at Texas Flange →
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#f5f5f5" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "flex", gap: "40px", flexWrap: "wrap", alignItems: "flex-start" }}>
-          <div style={{ flex: "1 1 500px" }}>
-            <h2 style={{ fontSize: "36px", fontWeight: 700, color: "#2563eb", marginBottom: "24px" }}>Since 1986</h2>
-            <p style={{ fontSize: "17px", lineHeight: 1.8, color: "#444" }}>
-              We provide ASME and Non code Industrial pipe flanges for the Petrochemical, Process, and Waterworks industries in Stainless Steel Industrial Flanges, Alloy Steel Industrial Flanges and Carbon Steel Industrial Flanges. ANSI, API, AWWA pipe flanges in carbon steel, stainless steel, alloys and chrome steel. Our steel flanges can be Weld Neck, Slip on, Blind, Threaded, Socket Weld, Lap Joint, Orifice Flanges, Ring, and custom steel flanges in sizes 1/2&quot; to 203&quot;. Pressure classes: 75, 125, 150, 175, 250, 300, 350, 400, 600, 900, 1500, 2500, 5K, 10K, 15K, 20K. High Yield, Low Temp.
-            </p>
-          </div>
-          <div style={{ flex: "0 0 320px" }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/STEEL-picture.jpg" alt="Steel flanges manufacturing" style={{ width: "100%", borderRadius: "12px", boxShadow: "0 4px 20px rgba(0,0,0,0.15)" }} />
           </div>
         </div>
       </section>
@@ -199,7 +175,7 @@ export default function Home() {
       <section id="products" className="rv" style={{ padding: "80px 40px", backgroundColor: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#1a3a5c", marginBottom: "16px" }}>WHY US?</h2>
-          <p style={{ fontSize: "20px", color: "#2563eb", fontWeight: 600, marginBottom: "32px" }}>1/2&quot; &ndash; 202&quot; INDUSTRIAL FLANGES</p>
+          <p style={{ fontSize: "20px", color: "#B45309", fontWeight: 600, marginBottom: "32px" }}>1/2&quot; &ndash; 203&quot; INDUSTRIAL FLANGES</p>
           <h3 style={{ fontSize: "22px", fontWeight: 600, color: "#333", marginBottom: "20px" }}>We provide:</h3>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "16px" }}>
             {[
@@ -216,7 +192,7 @@ export default function Home() {
               "SPECTACLE BLINDS \u2013 Line blinds, paddle spacers",
               "DIN FLANGES / JIS FLANGES / Special Ring Flanges",
             ].map((item, i) => (
-              <div key={i} style={{ padding: "16px 20px", backgroundColor: "#f8f9fa", borderRadius: "8px", borderLeft: "4px solid #2563eb" }}>
+              <div key={i} style={{ padding: "16px 20px", backgroundColor: "#f8f9fa", borderRadius: "8px", borderLeft: "4px solid #B45309" }}>
                 <p style={{ margin: 0, fontSize: "15px", color: "#333", fontWeight: 500 }}>{item}</p>
               </div>
             ))}
@@ -227,7 +203,7 @@ export default function Home() {
       {/* Materials Section */}
       <section id="materials" className="rv" style={{ padding: "80px 40px", backgroundColor: "#1a3a5c", color: "#fff" }}>
         <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-          <h2 style={{ fontSize: "32px", fontWeight: 700, marginBottom: "32px" }}>Materials Used</h2>
+          <h2 style={{ fontSize: "32px", fontWeight: 700, color: "#fff", marginBottom: "32px" }}>Materials Used</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
             <div>
               <h3 style={{ fontSize: "18px", fontWeight: 600, color: "#93c5fd", marginBottom: "8px" }}>CARBON STEEL</h3>
@@ -254,22 +230,19 @@ export default function Home() {
               <p style={{ lineHeight: 1.7, opacity: 0.9 }}>Copper 90/10, 70/30 | Duplex F51/2205, F53/2507 | Titanium Gr2, Gr12</p>
             </div>
           </div>
-          <p style={{ marginTop: "32px", lineHeight: 1.7, opacity: 0.9 }}>
-            We also offer a full line of Stainless and Alloy Plate Flame Cutting and Galvanized Carbon Steel Flanges. There are some grades of steel that no flange producers stock but on occasion are required. We source them and make them per your requirements.
-          </p>
         </div>
       </section>
 
 
 
       {/* CTA Section */}
-      <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#2563eb", textAlign: "center", color: "#fff" }}>
-        <h2 style={{ fontSize: "36px", fontWeight: 700, marginBottom: "16px" }}>Ready to Source Your Flanges?</h2>
-        <p style={{ fontSize: "18px", marginBottom: "12px", opacity: 0.9 }}>We want your industrial flange inquiry and will give you your quote quickly!</p>
+      <section className="rv" style={{ padding: "80px 40px", backgroundColor: "#B45309", textAlign: "center", color: "#fff" }}>
+        <h2 style={{ fontSize: "36px", fontWeight: 700, color: "#fff", marginBottom: "16px" }}>Request a Quote on Weld Neck Flanges</h2>
+        <p style={{ fontSize: "18px", marginBottom: "12px", opacity: 0.9 }}>Send the size, pressure class, facing, bore or schedule, and material grade.</p>
         <p style={{ fontSize: "17px", marginBottom: "30px", opacity: 0.9 }}>
-          Phone: <a href="tel:281-484-8325" style={{ color: "#fff", textDecoration: "underline" }}>281-484-8325</a>
+          Phone: <a href="tel:+1-281-484-8325" style={{ color: "#fff", textDecoration: "underline" }}>281-484-8325</a>
         </p>
-        <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#fff", color: "#2563eb", padding: "14px 40px", borderRadius: "30px", textDecoration: "none", fontWeight: 600, fontSize: "16px", display: "inline-block" }}>Request a Quote</a>
+        <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ backgroundColor: "#fff", color: "#B45309", padding: "14px 40px", borderRadius: "30px", textDecoration: "none", fontWeight: 600, fontSize: "16px", display: "inline-block" }}>Request a Quote</a>
       </section>
 
       {/* Footer */}
@@ -278,7 +251,7 @@ export default function Home() {
           <h3 style={{ fontSize: "20px", fontWeight: 600, color: "#fff", marginBottom: "16px" }}>Weld Neck Flanges</h3>
           <p style={{ marginBottom: "8px" }}>Have questions? Contact us.</p>
           <p style={{ marginBottom: "8px" }}>
-            Phone: <a href="tel:281-484-8325" style={{ color: "#93c5fd", textDecoration: "none" }}>281-484-8325</a>
+            Phone: <a href="tel:+1-281-484-8325" style={{ color: "#93c5fd", textDecoration: "none" }}>281-484-8325</a>
           </p>
           <p style={{ marginBottom: "8px" }}>
             Email: <a href="mailto:sales@texasflange.com" style={{ color: "#93c5fd", textDecoration: "none" }}>sales@texasflange.com</a>
@@ -287,7 +260,7 @@ export default function Home() {
             <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>More Information</a> {" | "}
             <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
           </p>
-          <p style={{ fontSize: "13px", color: "#888", marginTop: "20px" }}>&copy; 2026 Weld Neck Flanges. All rights reserved.</p>
+          <p style={{ fontSize: "13px", color: "#888", marginTop: "20px" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
         </div>
       </footer>
 
@@ -302,12 +275,7 @@ export default function Home() {
             url: "https://weldneckflanges.com",
             telephone: "+1-281-484-8325",
             email: "sales@texasflange.com",
-            description: "Manufacturing and supplying a complete line of steel pipe flanges in carbon steel, stainless steel, and alloys per ASME, ANSI, AWWA, API standards.",
-            parentOrganization: {
-              "@type": "Organization",
-              name: "Texas Flange",
-              url: "https://texasflange.com/?ref=weldneckflanges",
-            },
+            description: "How weld neck flanges work, where they're used and how to spec them, with links to ASME B16.5 and B16.47 dimension tables.",
           }),
         }}
       />

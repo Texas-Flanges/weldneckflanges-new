@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { SiteNav } from "@/components/SiteNav";
+import { CurrentYear } from "@/components/CurrentYear";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Weld Neck Flanges",
@@ -27,15 +29,7 @@ export default function PrivacyPolicyPage() {
         }}
       />
 
-      {/* Navigation */}
-      <nav style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 40px", backgroundColor: "#1a3a5c", color: "#fff", position: "sticky", top: 0, zIndex: 50 }}>
-        <a href="/" style={{ fontSize: "20px", fontWeight: 700, color: "#fff", textDecoration: "none" }}>Weld Neck Flanges</a>
-        <div style={{ display: "flex", gap: "24px", alignItems: "center" }}>
-          <a href="/" style={{ color: "#fff", textDecoration: "none" }}>Home</a>
-          <a href="/blog" style={{ color: "#fff", textDecoration: "none" }}>Blog</a>
-          <a href="https://texasflange.com/contact-us?ref=weldneckflanges" style={{ backgroundColor: "#2563eb", color: "#fff", padding: "10px 24px", borderRadius: "6px", textDecoration: "none", fontWeight: 500 }}>Request a Quote</a>
-        </div>
-      </nav>
+      <SiteNav />
 
       {/* Breadcrumb */}
       <div style={{ padding: "16px 40px", backgroundColor: "#f8f9fa", fontSize: "14px" }}>
@@ -82,10 +76,10 @@ export default function PrivacyPolicyPage() {
             If you have questions about this Privacy Policy, please contact us at:
           </p>
           <p style={{ fontSize: "16px", color: "#444", marginBottom: "10px" }}>
-            Email: <a href="mailto:sales@texasflange.com" style={{ color: "#2563eb", textDecoration: "none" }}>sales@texasflange.com</a>
+            Email: <a href="mailto:sales@texasflange.com" style={{ color: "#B45309", textDecoration: "none" }}>sales@texasflange.com</a>
           </p>
           <p style={{ fontSize: "16px", color: "#444" }}>
-            Phone: <a href="tel:281-484-8325" style={{ color: "#2563eb", textDecoration: "none" }}>281-484-8325</a>
+            Phone: <a href="tel:+1-281-484-8325" style={{ color: "#B45309", textDecoration: "none" }}>281-484-8325</a>
           </p>
         </div>
       </section>
@@ -94,9 +88,9 @@ export default function PrivacyPolicyPage() {
       <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
         <p style={{ marginBottom: "8px" }}>
           <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Texas Flange</a> {" | "}
-          <a href="https://texasflange.com/contact-us?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
+          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#93c5fd", textDecoration: "none" }}>Request a Quote</a>
         </p>
-        <p style={{ fontSize: "13px", color: "#888" }}>&copy; 2025 Weld Neck Flanges. All rights reserved.</p>
+        <p style={{ fontSize: "13px", color: "#888" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
       </footer>
 
       {/* Structured Data - Breadcrumb */}
