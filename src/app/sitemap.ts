@@ -1,34 +1,13 @@
-import { MetadataRoute } from 'next';
-import { getBlogPosts } from '@/lib/blog';
-
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://weldneckflanges.com';
-  const posts = await getBlogPosts();
-
-  const blogRoutes = posts.map((post) => ({
-    url: baseUrl + '/blog/' + post.slug,
-    lastModified: post.date,
-  }));
-
+import { MetadataRoute } from "next";
+const BASE = "https://weldneckflanges-new.vercel.app";
+const industries = ["oil-gas","petrochemical","power-generation","waterworks","chemical-processing","mining","pulp-paper","food-beverage","agriculture","hvac","marine","data-centers"];
+const blogSlugs = ["weld-neck-vs-slip-on-when-the-extra-cost-pays-off","class-125lw-flanges-the-lightweight-retrofit-that-replaces-cast-iron","hastelloy-weld-neck-flanges-when-c276-is-the-right-call"];
+export default function sitemap(): MetadataRoute.Sitemap {
+  const lastModified = new Date();
+  const routes = ["","/about","/contact","/privacy-policy","/products","/products/weld-neck","/products/blind-flanges","/products/lightweight-flanges","/products/custom-machining","/standards","/standards/asme-flanges","/standards/api-flanges","/standards/awwa-flanges","/standards/din-flanges","/materials","/materials/carbon-steel","/materials/stainless-steel","/materials/alloy-steel","/materials/hastelloy","/industries","/resources","/resources/flange-dimensions","/resources/rtj-gaskets","/resources/cad-drawings","/resources/technical-specs","/tools","/tools/bolt-torque-calculator","/tools/flange-dimension-calculator","/tools/pressure-temperature-rating","/blog"];
   return [
-    {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
-      priority: 1,
-    },
-    {
-      url: baseUrl + '/blog',
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.8,
-    },
-    {
-      url: baseUrl + '/privacy-policy',
-      lastModified: new Date(),
-      changeFrequency: 'yearly' as const,
-      priority: 0.5,
-    },
-    ...blogRoutes,
+    ...routes.map((r) => ({ url: `${BASE}${r}`, lastModified, changeFrequency: "weekly" as const, priority: r === "" ? 1 : 0.7 })),
+    ...industries.map((slug) => ({ url: `${BASE}/industries/${slug}`, lastModified, changeFrequency: "monthly" as const, priority: 0.6 })),
+    ...blogSlugs.map((slug) => ({ url: `${BASE}/blog/${slug}`, lastModified, changeFrequency: "monthly" as const, priority: 0.6 }))
   ];
 }

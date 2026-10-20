@@ -1,18 +1,3 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      colors: {
-        primary: '#f57c00',
-      },
-    },
-  },
-  plugins: [],
-}
-export default config
+import type { Config } from "tailwindcss";
+const config: Config = { content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"], theme: { extend: { colors: { ink: "#1B1F23", cream: "#F8F6F0", teal: "#0D9488" }, fontFamily: { display: ["Playfair Display", "serif"], body: ["Inter", "sans-serif"] } } }, plugins: [] };
+export default config;

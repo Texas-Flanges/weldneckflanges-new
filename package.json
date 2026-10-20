@@ -1,25 +1,8 @@
 {
-  "name": "weldneckflanges",
-  "version": "1.0.0",
-  "description": "Specialized weld neck flanges offering superior strength and reliability for critical piping applications.",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "next": "^14.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^20.10.0",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.18",
-    "tailwindcss": "^3.4.1",
-    "postcss": "^8.4.32",
-    "autoprefixer": "^10.4.16",
-    "typescript": "^5.3.3"
-  }
+  "name": "weldneckflanges-new",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint" },
+  "dependencies": { "next": "14.2.35", "react": "^18.3.1", "react-dom": "^18.3.1" },
+  "devDependencies": { "@types/node": "^20", "@types/react": "^18", "@types/react-dom": "^18", "autoprefixer": "^10.4.19", "postcss": "^8.4.39", "tailwindcss": "^3.4.6", "typescript": "^5" }
 }

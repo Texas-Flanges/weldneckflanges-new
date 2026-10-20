@@ -1,93 +1,35 @@
+import Link from "next/link";
 import type { Metadata } from "next";
-import { SiteNav } from "@/components/SiteNav";
-import { CurrentYear } from "@/components/CurrentYear";
-import { OG_IMAGE } from "@/lib/seo";
+import { posts } from "./posts";
 
 export const metadata: Metadata = {
-  title: "Blog | Weld Neck Flanges",
-  description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
-  alternates: {
-    canonical: "https://weldneckflanges.com/blog",
-  },
-  openGraph: {
-    url: "https://weldneckflanges.com/blog",
-    description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
-    images: [OG_IMAGE],
-  },
-  twitter: {
-    card: "summary_large_image",
-    description: "Technical articles and guides about weld neck flanges: design, materials, installation and dimensions.",
-    images: [OG_IMAGE],
-  },
+  title: "Blog | Weld Neck Flange Technical Articles",
+  description: "Technical articles on weld neck flange selection, lightweight retrofit, Hastelloy specification, and API 6A pipeline service."
 };
-
-const posts = [
-  { title: "Weld Neck vs Lap Joint Flange: A Guide for US Applications", slug: "weld-neck-vs-lap-joint-flange", date: "October 10, 2025", excerpt: "A detailed comparison of weld neck flanges and lap joint flanges, covering design differences, strength, cost, installation, and when to choose each type for US projects." },
-  { title: "Selecting the Right Material for Weld Neck Flanges", slug: "right-material-for-weld-neck-flanges", date: "June 26, 2024", excerpt: "Comprehensive guide to choosing the right material for weld neck flanges, covering carbon steel, stainless steel, alloy steel, duplex, nickel alloys, and specialty materials." },
-  { title: "How to Properly Install Weld Neck Flanges for Maximum Durability?", slug: "properly-install-weld-neck-flanges", date: "June 25, 2024", excerpt: "Step-by-step guide for properly installing weld neck flanges to ensure maximum durability and joint integrity." },
-  { title: "The Benefits of Using Weld Neck Flanges in High-Pressure Applications", slug: "benefits-of-weld-neck-flanges-high-pressure", date: "June 25, 2024", excerpt: "Exploring the advantages of weld neck flanges for high-pressure piping systems and demanding industrial applications." },
-  { title: "Weld Neck Flange Dimensions", slug: "weld-neck-flange-dimensions", date: "June 24, 2024", excerpt: "Complete specification guide for weld neck flange dimensions across all standard pressure classes." },
-  { title: "The Ultimate Guide to Weld Neck Flanges", slug: "ultimate-guide-to-weld-neck-flanges", date: "June 22, 2024", excerpt: "Everything you need to know about weld neck flanges, from basic design principles to advanced applications." },
-];
-
-export default function BlogPage() {
+function formatDate(iso: string): string { return new Date(iso + "T00:00:00").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }); }
+export default function BlogIndexPage() {
+  const sorted = [...posts].sort((a, b) => (a.date < b.date ? 1 : -1));
   return (
-    <>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            body > header.border-gray-200 { display: none !important; }
-            * { box-sizing: border-box; }
-          `,
-        }}
-      />
-
-      <SiteNav />
-
-      {/* Header */}
-      <section style={{ backgroundColor: "#1B1F23", padding: "60px 40px", color: "#fff" }}>
-        <div style={{ maxWidth: "800px" }}>
-          <h1 style={{ fontSize: "42px", fontWeight: 700, color: "#fff", marginBottom: "12px" }}>Blog</h1>
-          <p style={{ fontSize: "18px", opacity: 0.9 }}>Technical articles and industry insights about weld neck flanges</p>
-        </div>
-      </section>
-
-      {/* Posts Grid */}
-      <section style={{ padding: "60px 40px", backgroundColor: "#f8f9fa" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
-          {posts.map((post, i) => (
-            <a key={i} href={`/blog/${post.slug}`} style={{ display: "block", backgroundColor: "#fff", borderRadius: "12px", padding: "28px", boxShadow: "0 1px 4px rgba(0,0,0,0.08)", textDecoration: "none", color: "inherit" }}>
-              <h2 style={{ fontSize: "18px", fontWeight: 600, color: "#1B1F23", marginBottom: "8px", lineHeight: 1.4 }}>{post.title}</h2>
-              <p style={{ fontSize: "14px", color: "#5F6B7A", marginBottom: "12px" }}>{post.date}</p>
-              <p style={{ fontSize: "15px", color: "#555", lineHeight: 1.6, margin: 0 }}>{post.excerpt}</p>
-            </a>
+    <main>
+      <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-6xl mx-auto"><p className="text-[#0D9488] font-semibold uppercase tracking-wider text-sm mb-4">Technical Resources</p><h1 className="font-display text-5xl md:text-6xl font-bold mb-6 text-white">Weld Neck Flanges Blog</h1><p className="text-xl text-gray-300 max-w-3xl leading-relaxed">Technical writing for engineers and buyers specifying weld neck pipe flanges. Construction type comparisons, material selection, lightweight retrofit, and exotic alloy service.</p></div></section>
+      <section className="bg-[#F8F6F0] py-16 px-4"><div className="max-w-6xl mx-auto">
+        <div className="grid gap-8">
+          {sorted.map((post) => (
+            <article key={post.slug} className="bg-white border border-gray-200 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex flex-wrap items-center gap-4 mb-4 text-sm">
+                <span className="inline-block bg-[#0D9488] text-white px-3 py-1 rounded-full font-semibold uppercase tracking-wide text-xs">{post.category}</span>
+                <span className="text-gray-600">{formatDate(post.date)}</span>
+                <span className="text-gray-400">|</span>
+                <span className="text-gray-600">{post.readTime}</span>
+              </div>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-[#1B1F23] mb-4"><Link href={`/blog/${post.slug}`} className="hover:text-[#0D9488] transition-colors">{post.title}</Link></h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">{post.excerpt}</p>
+              <Link href={`/blog/${post.slug}`} className="inline-flex items-center text-[#0D9488] font-semibold hover:underline">Read the full article<span className="ml-2" aria-hidden="true">&rarr;</span></Link>
+            </article>
           ))}
         </div>
-      </section>
-
-      {/* Footer */}
-      <footer style={{ padding: "40px", backgroundColor: "#111", color: "#ccc", textAlign: "center" }}>
-        <p style={{ marginBottom: "8px" }}>
-          <a href="https://texasflange.com/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Texas Flange</a> {" | "}
-          <a href="https://texasflange.com/contact-us/?ref=weldneckflanges" style={{ color: "#FDBA74", textDecoration: "none" }}>Request a Quote</a>
-        </p>
-        <p style={{ fontSize: "13px", color: "#888" }}>&copy; <CurrentYear /> Weld Neck Flanges. All rights reserved.</p>
-      </footer>
-
-      {/* Structured Data - Breadcrumb */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://weldneckflanges.com" },
-              { "@type": "ListItem", position: 2, name: "Blog", item: "https://weldneckflanges.com/blog" },
-            ],
-          }),
-        }}
-      />
-    </>
+      </div></section>
+      <section className="bg-[#0D9488] py-16 px-4"><div className="max-w-4xl mx-auto text-center text-white"><h2 className="font-display text-4xl font-bold mb-4">Got a weld neck spec to source?</h2><p className="text-xl mb-8">We supply weld neck flanges across the full pressure spectrum from Class 125LW lightweight through API 6A 20000 PSI.</p><div className="flex flex-wrap justify-center gap-4"><a href="tel:+12814848325" className="inline-block bg-white text-[#0D9488] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition-colors">(281) 484-8325</a><a href="mailto:sales@texasflange.com" className="inline-block border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#0D9488] transition-colors">sales@texasflange.com</a></div></div></section>
+    </main>
   );
 }
