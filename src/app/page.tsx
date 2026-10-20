@@ -28,17 +28,17 @@ export default function HomePage() {
     <>
       <section className="bg-[#1B1F23] text-white py-24 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-4">From Lightweight to 20000 PSI</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-4">From Lightweight to 20000 PSI</p>
           <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 leading-tight text-white">Weld Neck Flanges. Every Pressure Class.</h1>
-          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-10">The tapered hub and matched weld bevel that make a weld neck flange work scale across the full pressure spectrum. Lightweight Class 125LW for waterworks, ASME B16.5 catalog through Class 2500 for plant process, MSS SP-44 for pipeline pressure, and API 6A through 6BX for wellhead and high pressure production. Carbon through Hastelloy. When the spec is ready to source, this resource hands off to <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" className="text-[#0D9488] hover:text-white underline">Texas Flange weld neck supply</a>.</p>
+          <p className="text-xl text-gray-300 max-w-3xl leading-relaxed mb-10">The tapered hub and matched weld bevel that make a weld neck flange work scale across the full pressure spectrum. Lightweight Class 125LW for waterworks, ASME B16.5 catalog through Class 2500 for plant process, MSS SP-44 for pipeline pressure, and API 6A through 6BX for wellhead and high pressure production. Carbon through Hastelloy. When the spec is ready to source, this resource hands off to <a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" className="text-[#B45309] hover:text-white underline">Texas Flange weld neck supply</a>.</p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/contact" className="bg-[#0D9488] text-white px-8 py-4 rounded font-semibold hover:bg-[#0F766E] transition">Request a Quote</Link>
+            <Link href="/contact" className="bg-[#B45309] text-white px-8 py-4 rounded font-semibold hover:bg-[#92400E] transition">Request a Quote</Link>
             <Link href="/products/weld-neck" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#1B1F23] transition">Browse the Catalog</Link>
           </div>
         </div>
       </section>
 
-      <section className="bg-[#0D9488] text-white py-10 px-4">
+      <section className="bg-[#B45309] text-white py-10 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           <div><p className="font-display text-4xl font-bold">125LW</p><p className="text-sm uppercase tracking-wide mt-1">Lightest Class</p></div>
           <div><p className="font-display text-4xl font-bold">20K</p><p className="text-sm uppercase tracking-wide mt-1">PSI API 6BX Max</p></div>
@@ -49,19 +49,19 @@ export default function HomePage() {
 
       <section className="bg-cream py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">Why Weld Neck</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">Why Weld Neck</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-6">The Construction Type That Handles Anything</h2>
           <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mb-12">A weld neck flange has a tapered hub that meets the pipe at a matched weld bevel. The geometry does two things at once: it provides a smooth, gradual stress transition from pipe wall to flange ring (better than slip-on for cyclic and high-temperature service), and the full-penetration butt weld creates a near-seamless joint that meets radiographic acceptance. That is why weld neck shows up on every line where the pressure, temperature, or cycle count matters.</p>
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white border-l-4 border-[#0D9488] p-6 rounded">
+            <div className="bg-white border-l-4 border-[#B45309] p-6 rounded">
               <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-3">Grain Continuity</h3>
               <p className="text-gray-700 leading-relaxed text-sm">Forged weld necks carry continuous grain from pipe-end through hub through ring, oriented with the load path. Cyclic and fatigue service rewards this construction more than any other.</p>
             </div>
-            <div className="bg-white border-l-4 border-[#0D9488] p-6 rounded">
+            <div className="bg-white border-l-4 border-[#B45309] p-6 rounded">
               <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-3">Pressure Headroom</h3>
               <p className="text-gray-700 leading-relaxed text-sm">The hub absorbs bolt-up bending without yielding the way a flat slip-on flange ring does. That is why Class 1500 and above are almost always weld neck construction.</p>
             </div>
-            <div className="bg-white border-l-4 border-[#0D9488] p-6 rounded">
+            <div className="bg-white border-l-4 border-[#B45309] p-6 rounded">
               <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-3">Radiographic Joint</h3>
               <p className="text-gray-700 leading-relaxed text-sm">The matched weld bevel allows full penetration butt welding with 100 percent NDE on the joint. Required for ASME pressure vessel service and recommended on any line where leak risk carries safety consequences.</p>
             </div>
@@ -71,7 +71,7 @@ export default function HomePage() {
 
       <section className="bg-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">The Pressure Spectrum</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">The Pressure Spectrum</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-6">From Lightweight to 20K PSI</h2>
           <p className="text-lg text-gray-700 max-w-3xl mb-12 leading-relaxed">The same weld neck construction scales from waterworks to wellhead. The class number changes, the material gets heavier, the hub gets taller, but the geometry stays the same.</p>
           <div className="space-y-4">
@@ -86,7 +86,7 @@ export default function HomePage() {
               <div key={c.code} className="bg-[#F8F6F0] border border-gray-200 rounded p-6 flex flex-col md:flex-row gap-6 md:items-center">
                 <div className="md:w-1/4">
                   <p className="font-display text-2xl font-bold text-[#1B1F23]">{c.code}</p>
-                  <p className="text-sm text-[#0D9488] font-semibold mt-1">{c.range}</p>
+                  <p className="text-sm text-[#B45309] font-semibold mt-1">{c.range}</p>
                 </div>
                 <p className="md:w-3/4 text-gray-700 leading-relaxed">{c.body}</p>
               </div>
@@ -97,7 +97,7 @@ export default function HomePage() {
 
       <section className="bg-[#1B1F23] text-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">Material Range</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">Material Range</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6">Carbon Through Hastelloy</h2>
           <p className="text-lg text-gray-300 max-w-3xl mb-12 leading-relaxed">Forty plus alloy grades across the carbon, stainless, chrome-moly, nickel-alloy, duplex, titanium, aluminum, and copper-nickel families. The grade is matched to the service, not stocked once and forced into every line item.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -111,7 +111,7 @@ export default function HomePage() {
               { title: "Duplex", grades: "2205, 2507 super duplex" },
               { title: "Other", grades: "Monel 400, Titanium Gr2/Gr12, 90/10 and 70/30 CuNi, 6061 / 5083 / 3003 aluminum" }
             ].map((m) => (
-              <div key={m.title} className="border border-[#0D9488]/30 p-5 rounded">
+              <div key={m.title} className="border border-[#B45309]/30 p-5 rounded">
                 <p className="font-display text-lg font-bold text-white mb-2">{m.title}</p>
                 <p className="text-gray-400 text-xs leading-relaxed">{m.grades}</p>
               </div>
@@ -122,7 +122,7 @@ export default function HomePage() {
 
       <section className="bg-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">Industries We Supply</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">Industries We Supply</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-12">From Wellhead to Treatment Plant</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {[
@@ -131,7 +131,7 @@ export default function HomePage() {
               ["pulp-paper", "Pulp & Paper"], ["food-beverage", "Food & Beverage"], ["agriculture", "Agriculture"],
               ["hvac", "HVAC & Mechanical"], ["marine", "Marine & Shipbuilding"], ["data-centers", "Data Centers"]
             ].map(([slug, label]) => (
-              <Link key={slug} href={`/industries/${slug}`} className="block bg-[#F8F6F0] border border-gray-200 px-4 py-4 rounded text-center hover:border-[#0D9488] hover:bg-white transition">
+              <Link key={slug} href={`/industries/${slug}`} className="block bg-[#F8F6F0] border border-gray-200 px-4 py-4 rounded text-center hover:border-[#B45309] hover:bg-white transition">
                 <span className="text-[#1B1F23] font-semibold text-sm">{label}</span>
               </Link>
             ))}
@@ -141,7 +141,7 @@ export default function HomePage() {
 
       <section className="bg-cream py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">Technical Resources</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">Technical Resources</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-12">Engineering Reference</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -152,7 +152,7 @@ export default function HomePage() {
               { href: "/materials/hastelloy", title: "Hastelloy Service Guide", body: "C-276, C-22, B-2 grade selection. Corrosion data for chloride, acid, and chemical process service." },
               { href: "/tools/pressure-temperature-rating", title: "Pressure-Temperature Lookup", body: "ASME B16.5 P-T values for common materials. Class 150 through 2500 across carbon, stainless, chrome-moly." }
             ].map((r) => (
-              <Link key={r.href} href={r.href} className="block bg-white border border-gray-200 rounded p-6 hover:border-[#0D9488] hover:shadow-md transition">
+              <Link key={r.href} href={r.href} className="block bg-white border border-gray-200 rounded p-6 hover:border-[#B45309] hover:shadow-md transition">
                 <h3 className="font-display text-xl font-bold text-[#1B1F23] mb-3">{r.title}</h3>
                 <p className="text-gray-700 leading-relaxed text-sm">{r.body}</p>
               </Link>
@@ -163,20 +163,20 @@ export default function HomePage() {
 
       <section className="bg-white py-20 px-4">
         <div className="max-w-4xl mx-auto">
-          <p className="text-[#0D9488] uppercase tracking-widest text-sm font-semibold mb-3">Common Questions</p>
+          <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">Common Questions</p>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-12">Frequently Asked</h2>
           <div className="space-y-6">{faqs.map((f, i) => <FaqItem key={i} q={f.q} a={f.a} />)}</div>
         </div>
       </section>
 
-      <section className="bg-[#0D9488] py-20 px-4">
+      <section className="bg-[#B45309] py-20 px-4">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">Got a Weld Neck Spec to Source?</h2>
           <p className="text-xl mb-10 leading-relaxed">Send the size, the pressure class, the material grade, and the facing. The quote with stock confirmation and lead time comes back the same business day.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="tel:2814848325" className="bg-white text-[#0D9488] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">(281) 484-8325</a>
-            <a href="mailto:sales@texasflange.com" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#0D9488] transition">sales@texasflange.com</a>
-            <Link href="/contact" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#0D9488] transition">Request a Quote</Link>
+            <a href="tel:2814848325" className="bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">(281) 484-8325</a>
+            <a href="mailto:sales@texasflange.com" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition">sales@texasflange.com</a>
+            <Link href="/contact" className="border-2 border-white text-white px-8 py-4 rounded font-semibold hover:bg-white hover:text-[#B45309] transition">Request a Quote</Link>
           </div>
           <p className="text-white/80 text-sm mt-8">PO Box 2889, Pearland, TX 77588</p>
         </div>
@@ -190,7 +190,7 @@ function FaqItem({ q, a }: { q: string; a: string }) {
     <details className="bg-[#F8F6F0] border border-gray-200 rounded-lg p-6 group">
       <summary className="cursor-pointer flex items-start justify-between gap-4">
         <h3 className="font-display text-lg font-bold text-[#1B1F23]">{q}</h3>
-        <span className="text-[#0D9488] text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
+        <span className="text-[#B45309] text-2xl leading-none group-open:rotate-45 transition-transform">+</span>
       </summary>
       <p className="text-gray-700 leading-relaxed mt-4">{a}</p>
     </details>

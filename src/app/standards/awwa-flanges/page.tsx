@@ -2,7 +2,7 @@ import Link from "next/link";
 export const metadata = { title: "AWWA C207 Weld Neck Flanges | Class B, D, E, F Waterworks", description: "AWWA C207 weld neck and slip-on steel pipe flanges for water and wastewater service. Class B (86 psi), D (175 psi), E (275 psi), F (300 psi). 4 inch through 144 inch." };
 export default function AwwaPage() {
   return (<>
-    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/standards" className="text-gray-400 hover:text-[#0D9488] text-sm mb-6 inline-block">&larr; Standards</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">AWWA C207</h1><p className="text-xl text-gray-300 max-w-3xl leading-relaxed">Steel pipe flanges for waterworks service. The default standard for transmission mains, treatment plant interconnects, and large diameter water and wastewater piping. Weld neck and slip-on construction.</p></div></section>
+    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/standards" className="text-gray-400 hover:text-[#B45309] text-sm mb-6 inline-block">&larr; Standards</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">AWWA C207</h1><p className="text-xl text-gray-300 max-w-3xl leading-relaxed">Steel pipe flanges for waterworks service. The default standard for transmission mains, treatment plant interconnects, and large diameter water and wastewater piping. Weld neck and slip-on construction.</p></div></section>
     <section className="bg-cream py-16 px-4"><div className="max-w-4xl mx-auto prose-content space-y-6">
       <h2 className="font-display text-3xl font-bold text-ink">Pressure Classes</h2>
       <ul className="list-disc pl-6 space-y-1 text-lg text-gray-700">
@@ -20,6 +20,6 @@ export default function AwwaPage() {
       <h2 className="font-display text-3xl font-bold text-ink">AIS Compliance</h2>
       <p className="text-lg text-gray-700 leading-relaxed">For EPA State Revolving Fund water and wastewater projects, plus USDA Rural Development water programs, American Iron and Steel compliance is the default requirement. AWWA C207 flanges fabricated from domestic-melt plate qualify when manufacturing stays within the United States. The compliance letter references the SRF program and the project number.</p>
     </div></section>
-    <section className="bg-[#0D9488] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Waterworks Project?</h2><Link href="/contact" className="inline-block bg-white text-[#0D9488] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Waterworks Project?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
   </>);
 }

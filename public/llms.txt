@@ -1,42 +1,19 @@
 # Weld Neck Flanges
-
-> Engineered weld neck pipe flange supply across the full pressure spectrum from lightweight Class 125LW through API 6A and 6BX 20000 PSI. ASME B16.5 and B16.47, MSS SP-44 pipeline, AWWA C207 waterworks. Material range from A105 carbon through Hastelloy C276 nickel alloy.
+> Reference site for weld neck flanges: how they work, where they're used, and how to spec them.
 
 ## About
+Weld Neck Flanges (weldneckflanges.com) is an informational resource on weld neck flanges used in piping systems, pressure vessels and industrial service.
 
-Weld Neck Flanges is a Houston-area specialist in tapered-hub forged and plate-cut weld neck flanges. The weld neck construction carries the grain orientation and hub geometry that high-pressure cyclic service demands, and it scales across the full pressure spectrum from lightweight low-pressure waterworks to 20000 PSI wellhead service.
-
-## Pressure Classes
-
-- Class 75, 125LW, 125, 175 lightweight waterworks
-- ASME B16.5 Class 150, 300, 400, 600, 900, 1500, 2500
-- ASME B16.47 Series A and B, Class 75 through 900
-- API 6A 2M, 3M, 5M (6B series)
-- API 6BX 10M, 15M, 20M, 25M
-- AWWA C207 Class B, D, E, F
-- MSS SP-44 pipeline pressure ratings
-
-## Materials
-
-- Carbon: A105, A350 LF2, A350 LF3, A516-70, A36, A694 F42 through F70
-- Stainless: F304, F304L, F316, F316L, F321, F347, F347H, 904L, Alloy 20
-- Chrome-moly alloy: F1, F5, F6, F9, F11, F12, F22, F91
-- Hastelloy: B-2, C-276, C-22, G, X
-- Inconel: 600, 601, 625, 718
-- Incoloy: 800, 800H, 800HT, 825
-- Monel: 400
-- Duplex and super duplex: 2205, 2507
-- Titanium: Grade 2, Grade 12
-- Aluminum: 3003, 5083, 6061
-- Copper alloys: 90/10 and 70/30 copper-nickel
+## Topics
+- Weld neck flanges per ASME B16.5 (NPS 1/2 to 24) and ASME B16.47 (NPS 26 to 60)
+- Long weld neck (nozzle) flanges
+- Facings: raised face (RF) and ring type joint (RTJ)
+- Materials: carbon steel, stainless steel, alloy steel
 
 ## Standards
-
-ASME B16.5, ASME B16.47 Series A and B, ASME B16.9, API 6A, API 6BX, API 605, MSS SP-44, AWWA C207, ANSI B16.1, DIN EN 1092-1, NACE MR0175
+ASME B16.5, ASME B16.47, API 6A, ASTM material specifications
 
 ## Contact
-
-- Phone: (281) 484-8325
+- Phone: 281-484-8325
 - Email: sales@texasflange.com
-- Mailing: PO Box 2889, Pearland, TX 77588
-- Hours: Monday through Friday, 8 AM to 5 PM CST
+- Quote requests: https://texasflange.com/contact-us/?ref=weldneckflanges

@@ -2,7 +2,7 @@ import Link from "next/link";
 export const metadata = { title: "Technical Specifications | Material Grade Quick Reference", description: "Quick reference for weld neck flange technical specifications. Material grade summary, NACE hardness limits, charpy impact requirements, API 6A material classes." };
 export default function TechnicalSpecsPage() {
   return (<>
-    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/resources" className="text-gray-400 hover:text-[#0D9488] text-sm mb-6 inline-block">&larr; Resources</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">Technical Specifications</h1><p className="text-xl text-gray-300 leading-relaxed max-w-3xl">Quick reference for the technical decisions that drive weld neck flange selection. Material grade summary, NACE hardness, impact testing, API 6A material classes.</p></div></section>
+    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/resources" className="text-gray-400 hover:text-[#B45309] text-sm mb-6 inline-block">&larr; Resources</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">Technical Specifications</h1><p className="text-xl text-gray-300 leading-relaxed max-w-3xl">Quick reference for the technical decisions that drive weld neck flange selection. Material grade summary, NACE hardness, impact testing, API 6A material classes.</p></div></section>
     <section className="bg-cream py-16 px-4"><div className="max-w-5xl mx-auto">
       <h2 className="font-display text-3xl font-bold text-ink mb-6">Material Grade Quick Reference</h2>
       <div className="overflow-x-auto mb-12">
@@ -42,6 +42,6 @@ export default function TechnicalSpecsPage() {
       <h2 className="font-display text-3xl font-bold text-ink mb-6">Charpy Impact</h2>
       <p className="text-gray-700 leading-relaxed">Common test temperatures and minimum absorbed energy: A350 LF2 at -50 F, 13 ft-lb min avg. A350 LF3 at -150 F, 15 ft-lb min. A694 F60 at -20 F, 20 ft-lb min. API 6A class EE typically tested at -50 F or lower with project-specific energy requirements.</p>
     </div></section>
-    <section className="bg-[#0D9488] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Spec Detail Question?</h2><Link href="/contact" className="inline-block bg-white text-[#0D9488] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Spec Detail Question?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
   </>);
 }
