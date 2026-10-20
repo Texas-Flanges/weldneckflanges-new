@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Stainless Steel Weld Neck Flanges | F304L, F316L, F321, F347", description: "Stainless steel weld neck flange grades: F304 and F304L austenitic, F316 and F316L molybdenum-bearing for chloride resistance, F321 and F347 stabilized for high temperature, 904L and Alloy 20 specialty." };
 export default function StainlessSteelPage() {
@@ -10,6 +11,6 @@ export default function StainlessSteelPage() {
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">904L (UNS N08904)</h2><p className="text-gray-700 leading-relaxed">High-alloy austenitic with 25 percent nickel and 4.5 percent molybdenum. Resistance to sulfuric acid and other reducing acids better than F316L. Used in pickling, plating, and acid storage service.</p></div>
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">Alloy 20 (UNS N08020)</h2><p className="text-gray-700 leading-relaxed">Carpenter Alloy 20 nickel-iron-chromium-molybdenum with copper addition. Specifically engineered for sulfuric acid service. The copper addition resists pitting in sulfate environments where F316L and 904L would fail.</p></div>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Stainless Spec?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

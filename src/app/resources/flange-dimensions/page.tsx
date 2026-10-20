@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Weld Neck Dimensions Reference | ASME B16.5 and B16.47", description: "Reference dimensions for ASME B16.5 and B16.47 weld neck flanges. OD, bolt circle, bolt count, hub length, hub diameter, bore by class and size." };
 export default function FlangeDimensionsPage() {
@@ -25,6 +26,6 @@ export default function FlangeDimensionsPage() {
       <p className="text-lg text-gray-700 leading-relaxed">For the full ASME B16.5 and B16.47 dimensional tables, see the parent dimensional library at <a href="https://texasflange.com/products/flange-dims-weights/ansi-b16-5-forged-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#B45309] font-semibold">texasflange.com/products/flange-dims-weights</a>. Tables are organized by class with weld neck dimensions and hub geometry called out per size.</p>
       <p className="text-lg text-gray-700 leading-relaxed">For a specific dimension or to verify a tolerance, call <a href="tel:2814848325">(281) 484-8325</a> with the line spec.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Dimensional Question?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Send the Spec</Link></div></section>
+    <CtaBand />
   </>);
 }

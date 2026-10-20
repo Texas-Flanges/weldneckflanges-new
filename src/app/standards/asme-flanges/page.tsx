@@ -1,8 +1,9 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "ASME B16.5 and B16.47 Weld Neck Flanges", description: "ASME B16.5 pipe flanges 1/2 through 24 inch and B16.47 Series A and B large diameter flanges 26 through 60 inch. Weld neck construction, pressure classes, and material grades." };
 export default function AsmePage() {
   return (<>
-    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/standards" className="text-gray-400 hover:text-[#B45309] text-sm mb-6 inline-block">&larr; Standards</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">ASME B16.5 and B16.47</h1><p className="text-xl text-gray-300 max-w-3xl leading-relaxed">The two ASME standards that cover the bulk of plant process weld neck supply. B16.5 governs catalog sizes through 24 inch. B16.47 covers large diameter through 60 inch in two distinct series.</p></div></section>
+    <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><Link href="/standards" className="text-gray-400 hover:text-[#B45309] text-sm mb-6 inline-block">&larr; Standards</Link><h1 className="font-display text-5xl font-bold mb-6 text-white">ASME B16.5 and B16.47</h1><p className="text-xl text-gray-300 max-w-3xl leading-relaxed">The two ASME standards that cover the bulk of plant process weld necks. B16.5 governs catalog sizes through 24 inch. B16.47 covers large diameter through 60 inch in two distinct series.</p></div></section>
     <section className="bg-cream py-16 px-4"><div className="max-w-4xl mx-auto prose-content space-y-6">
       <h2 className="font-display text-3xl font-bold text-ink">ASME B16.5</h2>
       <p className="text-lg text-gray-700 leading-relaxed">B16.5 covers pipe flanges and flanged fittings in nominal pipe sizes 1/2 inch through 24 inch. Pressure classes are 150, 300, 400, 600, 900, 1500, and 2500. The class designator is not a working pressure - actual P-T ratings depend on material grade and operating temperature, tabulated in the standard as pressure-temperature ratings.</p>
@@ -15,6 +16,6 @@ export default function AsmePage() {
       <h2 className="font-display text-3xl font-bold text-ink">Material Grades</h2>
       <p className="text-lg text-gray-700 leading-relaxed">A105 forged carbon is the default. A350 LF2 covers low-temperature service to minus 50 degrees F with charpy impact testing. A694 F-grades cover pipeline pressure service. Chrome-moly F11, F22, F91, F92 cover elevated temperature. Stainless F304L, F316L, F321, and F347 cover corrosion and high-temperature service; for sustained service above 800 degrees F, the H-grade variants (F321H / S32109 and F347H / S34709) are specified for code-credit creep strength. Specialty alloys including Hastelloy, Inconel, Monel, and duplex 2205 cover specific corrosion environments. See <Link href="/materials" className="text-[#B45309] font-semibold">Materials</Link> for the full grade table.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">ASME Spec on Your Line?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

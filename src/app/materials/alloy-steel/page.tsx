@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Alloy Steel Weld Neck Flanges | Chrome-Moly F11, F22, F91, F92", description: "Chrome-moly alloy steel weld neck flange grades. F11 (1.25 Cr - 0.5 Mo), F22 (2.25 Cr - 1 Mo), F91 (modified 9 Cr), F92 (9 Cr - W). Elevated temperature and creep service." };
 export default function AlloySteelPage() {
@@ -10,6 +11,6 @@ export default function AlloySteelPage() {
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">F92 (9 Cr - 0.5 Mo - 1.8 W)</h2><p className="text-gray-700 leading-relaxed">Tungsten-substituted 9 chromium for higher creep strength than F91 at extreme temperature. Used on supercritical and ultra-supercritical power generation. Welding consumables and procedure development are project-specific.</p></div>
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">F1, F5, F9 Legacy Chrome-Moly</h2><p className="text-gray-700 leading-relaxed">F1 (carbon-molybdenum) for low-temperature alloy service. F5 (5 chromium - 0.5 Mo) for intermediate hot service in refinery applications. F9 (9 chromium - 1 Mo) is the predecessor to F91 and still appears on existing plant equipment.</p></div>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Chrome-Moly Schedule?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

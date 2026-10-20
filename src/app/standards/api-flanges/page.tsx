@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "API 6A and 6BX Weld Neck Flanges | Wellhead Pressure", description: "API 6A wellhead and pressure control weld neck flanges. 2000 PSI through 25000 PSI. R-series and BX-series ring gaskets. Material classes AA through HH including NACE sour service." };
 export default function ApiPage() {
@@ -16,6 +17,6 @@ export default function ApiPage() {
       <h2 className="font-display text-3xl font-bold text-ink">Where API 6A Lives</h2>
       <p className="text-lg text-gray-700 leading-relaxed">Wellhead and christmas tree service is primary. Blowout preventer top flanges interface to 6A. Frac trees for hydraulic fracturing run at 10M or 15M class. Choke and kill manifolds are 6A. Surface flowlines downstream of the wellhead stay in 6A flange territory until the working pressure falls below 2500 PSI and the standard transitions to ASME B16.5.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Wellhead Flange Schedule?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

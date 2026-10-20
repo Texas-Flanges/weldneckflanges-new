@@ -1,4 +1,5 @@
 "use client";
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 import { useState } from "react";
 const data: Record<string, { dry: number; lubed: number }> = {
@@ -21,6 +22,6 @@ export default function BoltTorqueCalc() {
       <div className="bg-[#1B1F23] text-white p-8 rounded text-center"><p className="uppercase tracking-wider text-[#B45309] text-sm mb-2">Recommended Torque</p><p className="font-display text-5xl font-bold">{val[lube]} ft-lb</p><p className="text-gray-400 text-sm mt-4">B7 stud, {size}" diameter, {lube === 'lubed' ? 'lubricated threads' : 'unlubricated threads'}</p></div>
       <p className="text-sm text-gray-600 mt-6 leading-relaxed">Values reference target preload around 50 percent of yield for B7 studs on spiral-wound graphite gaskets. For RTJ gaskets, fire-safe service, or non-standard gasket materials, refer to the gasket manufacturer data sheet. Torque to 30 percent, 60 percent, then 100 percent in a cross pattern.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Need Studs and Gaskets?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

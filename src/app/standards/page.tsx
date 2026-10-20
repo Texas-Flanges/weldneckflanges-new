@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Standards | ASME, API, AWWA, DIN", description: "Reference for the major weld neck flange standards: ASME B16.5 and B16.47, API 6A and 6BX, AWWA C207, DIN EN 1092-1." };
 export default function StandardsHub() {
@@ -10,6 +11,6 @@ export default function StandardsHub() {
   return (<>
     <section className="bg-[#1B1F23] text-white py-20 px-4"><div className="max-w-4xl mx-auto"><p className="uppercase tracking-widest text-[#B45309] text-sm mb-3">Standards Reference</p><h1 className="font-display text-5xl font-bold mb-6 text-white">Built to Code</h1><p className="text-xl text-gray-300 leading-relaxed max-w-3xl">Four major standards cover the majority of weld neck flange specification. Each governs different pressure regimes, dimensional families, and material chemistry.</p></div></section>
     <section className="bg-cream py-16 px-4"><div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">{std.map((s) => (<Link key={s.href} href={s.href} className="block bg-white border border-gray-200 rounded p-8 hover:border-[#B45309] hover:shadow-md transition"><p className="text-[#B45309] font-display text-2xl font-bold mb-3">{s.code}</p><p className="text-gray-700 leading-relaxed">{s.body}</p></Link>))}</div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Spec Standard Not Listed?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

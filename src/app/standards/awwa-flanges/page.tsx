@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "AWWA C207 Weld Neck Flanges | Class B, D, E, F Waterworks", description: "AWWA C207 weld neck and slip-on steel pipe flanges for water and wastewater service. Class B (86 psi), D (175 psi), E (275 psi), F (300 psi). 4 inch through 144 inch." };
 export default function AwwaPage() {
@@ -20,6 +21,6 @@ export default function AwwaPage() {
       <h2 className="font-display text-3xl font-bold text-ink">AIS Compliance</h2>
       <p className="text-lg text-gray-700 leading-relaxed">For EPA State Revolving Fund water and wastewater projects, plus USDA Rural Development water programs, American Iron and Steel compliance is the default requirement. AWWA C207 flanges fabricated from domestic-melt plate qualify when manufacturing stays within the United States. The compliance letter references the SRF program and the project number.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Waterworks Project?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

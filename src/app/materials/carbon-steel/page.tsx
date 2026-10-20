@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Carbon Steel Weld Neck Flanges | A105, A350, A694", description: "Carbon steel weld neck flange grades: A105 standard, A350 LF2 and LF3 low-temperature, A516-70 plate, A36 structural, A694 high-yield pipeline F42 through F70." };
 export default function CarbonSteelPage() {
@@ -10,6 +11,6 @@ export default function CarbonSteelPage() {
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">A36 Structural Plate</h2><p className="text-gray-700 leading-relaxed">36 ksi yield structural plate. Used on AWWA C207 lightweight flanges and on non-pressure structural flange applications. Not pressure-qualified for ASME service. A36 should not substitute for A516-70 on pressure drawings.</p></div>
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">A694 High-Yield Pipeline</h2><p className="text-gray-700 leading-relaxed">Forged carbon with elevated yield strengths matched to API 5L X-grade pipe. Grade designators F42 through F70 where the number is the minimum yield in ksi. MSS SP-44 pipeline weld neck flanges are the typical application. Normalize-and-temper or quench-and-temper heat treated. Charpy impact testing mandatory above F52.</p></div>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Carbon Grade Question?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

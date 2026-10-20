@@ -1,4 +1,5 @@
 "use client";
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 import { useState } from "react";
 const dims: Record<string, Record<string, { od: number; bc: number; bolts: number; boltDia: string }>> = {
@@ -27,6 +28,6 @@ export default function FlangeDimCalc() {
       ) : <p className="text-gray-600">No data for this combination.</p>}
       <p className="text-sm text-gray-600 mt-6 leading-relaxed">Reference values per ASME B16.5. For complete dimensional tables including flange thickness, hub geometry, and raised face dimensions, see the parent dimensional library or send the line spec for verification.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Need Dimensional Verification?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Send the Spec</Link></div></section>
+    <CtaBand />
   </>);
 }

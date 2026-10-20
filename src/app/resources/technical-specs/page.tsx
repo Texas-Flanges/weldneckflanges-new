@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Technical Specifications | Material Grade Quick Reference", description: "Quick reference for weld neck flange technical specifications. Material grade summary, NACE hardness limits, charpy impact requirements, API 6A material classes." };
 export default function TechnicalSpecsPage() {
@@ -42,6 +43,6 @@ export default function TechnicalSpecsPage() {
       <h2 className="font-display text-3xl font-bold text-ink mb-6">Charpy Impact</h2>
       <p className="text-gray-700 leading-relaxed">Common test temperatures and minimum absorbed energy: A350 LF2 at -50 F, 13 ft-lb min avg. A350 LF3 at -150 F, 15 ft-lb min. A694 F60 at -20 F, 20 ft-lb min. API 6A class EE typically tested at -50 F or lower with project-specific energy requirements.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Spec Detail Question?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

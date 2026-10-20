@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Hastelloy Weld Neck Flanges | C-276, C-22, B-2 plus Inconel, Monel, Duplex", description: "Hastelloy C-276 weld neck flanges plus C-22, B-2, G, X. Inconel 600, 625, 718, 825. Incoloy 800, 800H, 800HT. Monel 400. Duplex 2205 and 2507. Titanium grade 2." };
 export default function HastelloyPage() {
@@ -14,6 +15,6 @@ export default function HastelloyPage() {
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">Duplex 2205 and Super Duplex 2507</h2><p className="text-gray-700 leading-relaxed">Two-phase ferritic-austenitic stainless. Higher yield than F316L plus better chloride pitting resistance. 2205 covers most chloride service. 2507 super duplex covers severe chloride and offshore applications. Two service ceilings apply to both grades: sustained service is capped at 600 degrees F (315 degrees C) because of 475-degree-C alpha-prime embrittlement of the ferrite phase, and the practical chloride stress-corrosion cracking limit is approximately 250 degrees F for 2205 and 300 degrees F for 2507. Above either limit, a nickel-based alloy is the qualified product.</p></div>
       <div className="bg-white border-l-4 border-[#B45309] p-6"><h2 className="font-display text-2xl font-bold text-[#1B1F23] mb-3">Titanium Grade 2 and Grade 12</h2><p className="text-gray-700 leading-relaxed">Commercially pure titanium with excellent seawater, oxidizing acid, and chloride resistance. Grade 12 (small palladium addition) extends crevice corrosion resistance at higher temperatures. Bleach plant, desalination, and chemical process applications.</p></div>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Specialty Alloy Project?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }

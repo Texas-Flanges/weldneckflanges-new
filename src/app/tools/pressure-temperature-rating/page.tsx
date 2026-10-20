@@ -1,4 +1,5 @@
 "use client";
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 import { useState } from "react";
 const pt: Record<string, Record<string, Record<number, number>>> = {
@@ -22,6 +23,6 @@ export default function PTRatingCalc() {
       <div className="bg-[#1B1F23] text-white p-8 rounded text-center"><p className="uppercase tracking-wider text-[#B45309] text-sm mb-2">Max Working Pressure</p><p className="font-display text-5xl font-bold">{rating ?? 'N/A'} psig</p><p className="text-gray-400 text-sm mt-4">{mat}, Class {cls}, at {temp}°F</p></div>
       <p className="text-sm text-gray-600 mt-6 leading-relaxed">Reference values per ASME B16.5. Actual project ratings should be verified against the full P-T table for the specific material grade and design temperature. NACE, low-temperature impact, and sour service may impose additional limits.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">P-T Question on Your Line?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Send the Spec</Link></div></section>
+    <CtaBand />
   </>);
 }

@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "Weld Neck CAD Drawings | DWG, DXF, STEP, IGES", description: "Weld neck flange CAD drawings in DWG, DXF, STEP, and IGES. Direct download from the parent dimensional library covers ASME B16.5, B16.47, and AWWA C207." };
 export default function CadDrawingsPage() {
@@ -15,8 +16,8 @@ export default function CadDrawingsPage() {
         <li><a href="https://texasflange.com/lap-joint-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#B45309] font-semibold">Lap joint flange drawings</a></li>
       </ul>
       <h2 className="font-display text-3xl font-bold text-ink">Custom Drawing Requests</h2>
-      <p className="text-lg text-gray-700 leading-relaxed">For custom weld neck dimensions, hubbed plate weld necks, weld overlay configurations, or non-standard bolt patterns, send dimensions to <a href="mailto:sales@texasflange.com">sales@texasflange.com</a> or call <a href="tel:2814848325">(281) 484-8325</a>. The drawing work runs during the quote phase.</p>
+      <p className="text-lg text-gray-700 leading-relaxed">Custom weld neck dimensions, hubbed plate weld necks, weld overlay configurations, and non-standard bolt patterns are drawn to order. Send the dimensions to <a href="mailto:sales@texasflange.com">sales@texasflange.com</a> or call <a href="tel:+1-281-484-8325">281-484-8325</a>.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Custom Drawing Project?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Send Dimensions</Link></div></section>
+    <CtaBand />
   </>);
 }

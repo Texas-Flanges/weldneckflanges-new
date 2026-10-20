@@ -1,3 +1,4 @@
+import CtaBand from "@/components/CtaBand";
 import Link from "next/link";
 export const metadata = { title: "RTJ Ring Gasket Reference | R-Series and BX-Series", description: "Ring-type joint gasket reference for ASME and API 6A weld neck flanges. R-series (oval and octagonal) and BX-series ring gasket dimensions, materials, and flange groove matching." };
 export default function RtjGasketsPage() {
@@ -22,6 +23,6 @@ export default function RtjGasketsPage() {
       </ul>
       <p className="text-lg text-gray-700 leading-relaxed">Ring material is matched to service environment and to the mating flange material. The flange + ring assembly is ordered together to ensure compatibility.</p>
     </div></section>
-    <section className="bg-[#B45309] py-16 px-4 text-white text-center"><div className="max-w-3xl mx-auto"><h2 className="font-display text-4xl mb-6">Flange + Ring Package?</h2><Link href="/contact" className="inline-block bg-white text-[#B45309] px-8 py-4 rounded font-semibold hover:bg-[#F8F6F0] transition">Request Quote</Link></div></section>
+    <CtaBand />
   </>);
 }
