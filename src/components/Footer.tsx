@@ -1,31 +1,32 @@
 import Link from "next/link";
+import { QUOTE_URL } from "@/components/CtaBand";
+
 export default function Footer() {
   return (
     <footer className="bg-[#1B1F23] text-gray-300 py-12 px-4 border-t border-[#B45309]/30">
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
         <div className="col-span-2">
-          <p className="text-white font-display text-2xl mb-3">WELD<span className="text-[#B45309]">NECK</span></p>
-          <p className="text-gray-300 leading-relaxed max-w-md">Engineered weld neck pipe flange supply across the full pressure spectrum. Lightweight Class 125LW through API 6A 20000 PSI. Carbon, stainless, alloy, and exotic nickel alloys.</p>
-          <p className="text-gray-400 text-xs mt-4">PO Box 2889, Pearland, TX 77588</p>
+          <p className="text-white font-display text-2xl mb-3">WELD<span className="text-[#FDBA74]">NECK</span></p>
+          <p className="text-gray-300 leading-relaxed max-w-md">How weld neck flanges work, where they&apos;re used and how to spec them, from Class 125LW lightweight through API 6A 20000 PSI.</p>
         </div>
         <div>
-          <p className="text-white font-semibold mb-3 uppercase tracking-wide text-xs">Catalog</p>
+          <p className="text-white font-semibold mb-3 uppercase tracking-wide text-xs">Reference</p>
           <ul className="space-y-2">
-            <li><Link href="/products/weld-neck" className="text-gray-300 hover:text-[#B45309]">Weld Neck Flanges</Link></li>
-            <li><Link href="/products/blind-flanges" className="text-gray-300 hover:text-[#B45309]">Blind Flanges</Link></li>
-            <li><Link href="/products/lightweight-flanges" className="text-gray-300 hover:text-[#B45309]">Lightweight Flanges</Link></li>
-            <li><Link href="/products/custom-machining" className="text-gray-300 hover:text-[#B45309]">Custom Machining</Link></li>
-            <li><Link href="/materials/hastelloy" className="text-gray-300 hover:text-[#B45309]">Hastelloy</Link></li>
+            <li><Link href="/standards" className="text-gray-300 hover:text-[#FDBA74]">Standards</Link></li>
+            <li><Link href="/materials" className="text-gray-300 hover:text-[#FDBA74]">Materials</Link></li>
+            <li><Link href="/resources/flange-dimensions" className="text-gray-300 hover:text-[#FDBA74]">Flange Dimensions</Link></li>
+            <li><Link href="/tools" className="text-gray-300 hover:text-[#FDBA74]">Engineering Tools</Link></li>
+            <li><Link href="/blog" className="text-gray-300 hover:text-[#FDBA74]">Blog</Link></li>
           </ul>
         </div>
         <div>
           <p className="text-white font-semibold mb-3 uppercase tracking-wide text-xs">Contact</p>
           <ul className="space-y-2">
-            <li><a href="tel:2814848325" className="text-gray-300 hover:text-[#B45309]">(281) 484-8325</a></li>
-            <li><a href="mailto:sales@texasflange.com" className="text-gray-300 hover:text-[#B45309]">sales@texasflange.com</a></li>
-            <li className="text-gray-400">Mon-Fri, 8 AM-5 PM CST</li>
-            <li><Link href="/contact" className="text-gray-300 hover:text-[#B45309]">Request Quote</Link></li>
-            <li><Link href="/privacy-policy" className="text-gray-300 hover:text-[#B45309]">Privacy Policy</Link></li>
+            <li><a href="tel:+1-281-484-8325" className="text-gray-300 hover:text-[#FDBA74]">281-484-8325</a></li>
+            <li><a href="mailto:sales@texasflange.com" className="text-gray-300 hover:text-[#FDBA74]">sales@texasflange.com</a></li>
+            <li><a href={QUOTE_URL} className="text-gray-300 hover:text-[#FDBA74]">Request a Quote</a></li>
+            <li><a href="https://texasflange.com/?ref=weldneckflanges" className="text-gray-300 hover:text-[#FDBA74]">Texas Flange</a></li>
+            <li><Link href="/privacy-policy" className="text-gray-300 hover:text-[#FDBA74]">Privacy Policy</Link></li>
           </ul>
         </div>
       </div>
