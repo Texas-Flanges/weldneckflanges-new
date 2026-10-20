@@ -50,3 +50,6 @@ page,before,after
 /blog,[meta description] Technical articles on weld neck flange selection ...,"[meta description] Technical articles and guides about weld neck flanges: design, materials, installation and dimensions. (SEO-AI-090)"
 /blog/[slug],"[CTA band] Need this part sourced? Send the size, the pressure class, the material grade, and the facing. Quote returns the same business day.",[CTA band] shared Request a Quote band
 /404,The page you were looking for is not at this address. Try the homepage or send the part description and we will find it. | Call (281) 484-8325,The page you were looking for is not at this address. Try the homepage or the blog. | Blog
+/tools/bolt-torque-calculator,[title] (site default),[title] Bolt Torque Calculator for B7 Studs | Weld Neck Flanges
+/tools/flange-dimension-calculator,[title] (site default),[title] Flange Dimension Lookup (ASME B16.5) | Weld Neck Flanges
+/tools/pressure-temperature-rating,[title] (site default),[title] Pressure-Temperature Rating (ASME B16.5) | Weld Neck Flanges
