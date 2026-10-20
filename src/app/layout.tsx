@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   title: { default: "Weld Neck Flanges | Lightweight to API 6A 20K Pressure Service", template: "%s | Weld Neck Flanges" },
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         })}} />
       </head>
       <body className="bg-cream text-ink font-body">
+        <GoogleAnalytics />
         <Header /><main>{children}</main><Footer />
       </body>
     </html>
