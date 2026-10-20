@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-const BASE = "https://weldneckflanges-new.vercel.app";
+const BASE = "https://weldneckflanges.com";
 const industries = ["oil-gas","petrochemical","power-generation","waterworks","chemical-processing","mining","pulp-paper","food-beverage","agriculture","hvac","marine","data-centers"];
 const blogSlugs = ["weld-neck-vs-slip-on-when-the-extra-cost-pays-off","class-125lw-flanges-the-lightweight-retrofit-that-replaces-cast-iron","hastelloy-weld-neck-flanges-when-c276-is-the-right-call"];
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       { userAgent: "ChatGPT-User", allow: "/" }, { userAgent: "Google-Extended", allow: "/" },
       { userAgent: "PerplexityBot", allow: "/" }, { userAgent: "Bytespider", disallow: "/" }
     ],
-    sitemap: "https://weldneckflanges-new.vercel.app/sitemap.xml"
+    sitemap: "https://weldneckflanges.com/sitemap.xml"
   };
 }

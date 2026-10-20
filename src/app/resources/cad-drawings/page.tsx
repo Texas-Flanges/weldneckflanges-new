@@ -8,11 +8,11 @@ export default function CadDrawingsPage() {
       <p className="text-lg text-gray-700 leading-relaxed">The parent dimensional library has CAD drawings for ASME B16.5 weld neck flanges across every size and pressure class, plus selected B16.47 large diameter, AWWA C207 waterworks weld neck, and API 6A wellhead service. Files download as DWG, DXF, STEP, and IGES depending on type.</p>
       <h2 className="font-display text-3xl font-bold text-ink">Direct Links</h2>
       <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
-        <li><a href="https://www.texasflange.com/cad-3d-flange-drawings/?ref=weldneckflanges-new" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">CAD library main page</a></li>
-        <li><a href="https://www.texasflange.com/flange-drawings-models2/weld-neck/?ref=weldneckflanges-new" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Weld neck flange drawings</a></li>
-        <li><a href="https://www.texasflange.com/flange-drawings-models2/blind/?ref=weldneckflanges-new" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Blind flange drawings</a></li>
-        <li><a href="https://www.texasflange.com/flange-drawings-models2/slip-on/?ref=weldneckflanges-new" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Slip-on flange drawings</a></li>
-        <li><a href="https://www.texasflange.com/flange-drawings-models2/lap-joint/?ref=weldneckflanges-new" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Lap joint flange drawings</a></li>
+        <li><a href="https://texasflange.com/cad-3d-flange-drawings/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">CAD library main page</a></li>
+        <li><a href="https://texasflange.com/weld-neck-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Weld neck flange drawings</a></li>
+        <li><a href="https://texasflange.com/blind-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Blind flange drawings</a></li>
+        <li><a href="https://texasflange.com/slip-on-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Slip-on flange drawings</a></li>
+        <li><a href="https://texasflange.com/lap-joint-flanges/?ref=weldneckflanges" target="_blank" rel="noopener" className="text-[#0D9488] font-semibold">Lap joint flange drawings</a></li>
       </ul>
       <h2 className="font-display text-3xl font-bold text-ink">Custom Drawing Requests</h2>
       <p className="text-lg text-gray-700 leading-relaxed">For custom weld neck dimensions, hubbed plate weld necks, weld overlay configurations, or non-standard bolt patterns, send dimensions to <a href="mailto:sales@texasflange.com">sales@texasflange.com</a> or call <a href="tel:2814848325">(281) 484-8325</a>. The drawing work runs during the quote phase.</p>
