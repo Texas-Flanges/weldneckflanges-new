@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import CtaBand, { QUOTE_URL } from "@/components/CtaBand";
 import { OG_IMAGE } from "@/lib/seo";
 
-const TITLE = "Weld Neck Flanges | Lightweight to API 6A 20K Pressure Service";
-const DESCRIPTION = "How weld neck flanges work, where they're used and how to spec them, from Class 125LW lightweight through ASME B16.5, B16.47 and API 6A 20K, with links to the dimension tables.";
+const TITLE = "Weld Neck Flanges | ASME B16.5, B16.47 and API 6A 20K Pressure Service";
+const DESCRIPTION = "How weld neck flanges work, where they're used and how to spec them, from ASME B16.5 and B16.47 through API 6A 20K, with links to the dimension tables.";
 
 export const metadata: Metadata = {
   title: { absolute: TITLE },
@@ -20,19 +20,17 @@ const faqs = [
   { q: "What is a weld neck flange?",
     a: "A weld neck flange has a tapered hub and a weld bevel. It butt-welds to matching pipe. ASME B16.5 covers NPS 1/2 to 24. ASME B16.47 covers the large weld necks, NPS 26 to 60." },
   { q: "How is a weld neck flange joined to the pipe?",
-    a: "Pipe and hub get matching bevels. The shop puts a full-penetration circumferential butt weld around that V. After weld and inspection, the bore is a smooth transition. Flow does not hit a step the way it can on a slip-on fillet." },
+    a: "The end of the butt weld pipe and the end of the weld neck get matching bevels. This point is known as the \"point of weld (POW)\" which is where a V shaped landing is available for a weld bead to form. The installing shop will put a full penetration circumferential weld at this POW to form a proper seal. After weld and inspection, the bore is a smooth transition. Flow does not hit a step the way it can on a slip-on fillet." },
   { q: "Why are weld necks used in high-pressure and high-temperature service?",
     a: "The tapered hub spreads load from the flange ring into the pipe wall. That is why higher class, higher temperature, and cyclic service default to weld neck. In larger sizes and higher pressure classes, you'll rarely see anything else used." },
   { q: "Should a weld neck flange have an RF or RTJ face?",
-    a: "Facing follows the spec: RF on most process work, RTJ when the class and the mate demand a ring groove. RTJ weld necks with a metal ring gasket are common on higher-pressure oil and gas. Match the face. Do not mix RF and RTJ." },
+    a: "Facing follows the spec: RF on most process work, RTJ when the class and the mate demand a ring groove. RTJ weld necks with a metal ring gasket are common on higher-pressure oil and gas. Match the face. Do not mix RF and RTJ. FF (flat face) is available for low temperature pressure applications." },
   { q: "What is a long weld neck flange?",
     a: "A long weld neck is a different part. Tank and vessel shops use it as a one-piece nozzle: flange plus barrel, no pipe weld at the shell. Square-cut end is typical, not a weld bevel. Do not treat a long weld neck as a standard weld neck with extra hub. The weld prep and the bore rules are different." },
   { q: "What pressure range can a weld neck flange cover?",
-    a: "The weld neck construction itself scales further than any other flange type. At the low end, Class 125LW lightweight weld necks per AWWA C207 handle waterworks service down to 150 to 175 psi working pressure. ASME B16.5 covers Class 150 through Class 2500 in standard catalog sizes, which spans 285 psi through 6170 psi at room temperature for A105 carbon. Above that, API 6A and 6BX weld necks reach 20000 PSI and beyond. One construction type, the full pressure spectrum." },
+    a: "ASME B16.5 covers Class 150 through Class 2500 in standard catalog sizes, which spans 285 psi through 6170 psi at room temperature for A105 carbon. Above that, API 6A and 6BX weld necks reach 20000 PSI and beyond. One construction type, the full pressure spectrum." },
   { q: "Why pair RTJ facing with a weld neck flange?",
     a: "The metal-to-metal seal of a ring-type joint flange depends on bolt-up force and material stiffness to compress the gasket into the groove. The weld neck hub geometry distributes that bolt-up force evenly into the pipe wall without overstressing the joint, which is why RTJ + weld neck is the default at API 6A 3M class and above. The combination is also required by some refinery and petrochemical specifications for high-temperature steam and cyclic service." },
-  { q: "What is Class 125LW and how does it differ from cast iron Class 125?",
-    a: "Class 125LW is a lightweight steel flange that shares the bolt circle, bolt count, and outside diameter of ANSI B16.1 Class 125 cast iron. The hub is shorter and the ring section is thinner, which reduces weight without compromising bolted joint integrity for the moderate pressures (typically 150 to 175 psi) of waterworks and HVAC service. The advantage over cast iron is ductility: steel does not crack from impact or bolt-up overtorque the way cast iron does." },
   { q: "When does Hastelloy weld neck make sense over stainless?",
     a: "Hastelloy C-276 is to nickel alloys what A105 is to carbon. It resists wet chlorine, hot mineral acids, ferric and cupric chlorides, formic and acetic acids, sea water, and hypochlorite. Stainless F316L tolerates dilute chloride at room temperature but pits and stress corrosion cracks in concentrated chloride above 140 degrees F. Once the service crosses into hot wet chloride or mixed-acid chemistry, C-276 weld necks are the qualified product." },
   { q: "Are weld neck flanges available with NACE MR0175 compliance?",
@@ -122,14 +120,18 @@ export default function HomePage() {
             and alloy.
           </p>
           <p className="mb-4">
-            This is the type, not the dimension table. If you need OD, bolt circle, hub length, or
-            bore, use the class tables on texasflange.com.
+            Important to remember that &quot;weld neck&quot; is just a flange type, and different
+            factors determine the final dimensions. If you need OD, bolt circle, hub length, or
+            bore, use the class tables on{" "}
+            <a className="text-[#B45309] underline" href={`${TF}/flange-dims-weights/${REF}`}>texasflange.com</a>.
           </p>
 
           <h3 className="font-display text-2xl font-bold text-[#1B1F23] mt-10 mb-3">The joint</h3>
           <p className="mb-4">
-            Pipe and hub get matching bevels. The shop puts a full-penetration circumferential
-            butt weld around that V. After weld and inspection, the bore is a smooth transition.
+            The end of the butt weld pipe and the end of the weld neck get matching bevels. This
+            point is known as the &quot;point of weld (POW)&quot; which is where a V shaped landing
+            is available for a weld bead to form. The installing shop will put a full penetration
+            circumferential weld at this POW to form a proper seal. After weld and inspection, the bore is a smooth transition.
             Flow does not hit a step the way it can on a slip-on fillet. The tapered hub spreads
             load from the flange ring into the pipe wall. That is why higher class, higher
             temperature, and cyclic service default to weld neck.
@@ -142,7 +144,8 @@ export default function HomePage() {
           <p className="mb-4">
             Facing follows the spec: RF on most process work, RTJ when the class and the mate
             demand a ring groove. RTJ weld necks with a metal ring gasket are common on
-            higher-pressure oil and gas. Match the face. Do not mix RF and RTJ.
+            higher-pressure oil and gas. Match the face. Do not mix RF and RTJ. FF (flat face) is
+            available for low temperature pressure applications.
           </p>
 
           <h3 className="font-display text-2xl font-bold text-[#1B1F23] mt-10 mb-3">Long weld neck (nozzle)</h3>
@@ -152,10 +155,11 @@ export default function HomePage() {
             Tank and vessel shops use it as a one-piece nozzle: flange plus barrel, no pipe weld
             at the shell. Square-cut end is typical, not a weld bevel. Bore is often the nominal
             size, not a pipe schedule, unless the print says otherwise. Length is on the drawing.
+            Most sizes have standard lengths of 9&quot; and 12&quot;, but all are available at request.
           </p>
           <p className="mb-4">
-            Long-weld-neck tables are published by class, including Class 150 and Class 600
-            standard connections. Heavy barrel and equal barrel are separate geometries. Send the
+            Long-weld-neck tables are published by class, including Class 150 through Class
+            2500 standard connections. Heavy barrel and equal barrel are separate geometries. Send the
             length, barrel OD, and grade. Do not treat a long weld neck as a standard weld neck
             with extra hub. The weld prep and the bore rules are different. Nozzle connections are
             machined with varying wall thickness when the vessel outlet needs more metal. Carbon,
@@ -231,12 +235,10 @@ export default function HomePage() {
       <section className="bg-white py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <p className="text-[#B45309] uppercase tracking-widest text-sm font-semibold mb-3">The Pressure Spectrum</p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-6">From Lightweight to 20K PSI</h2>
-          <p className="text-lg text-gray-700 max-w-3xl mb-12 leading-relaxed">The same weld neck construction scales from waterworks to wellhead. The class number changes, the material gets heavier, the hub gets taller, but the geometry stays the same.</p>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#1B1F23] mb-6">From Class 150 to 20K PSI</h2>
+          <p className="text-lg text-gray-700 max-w-3xl mb-12 leading-relaxed">The same weld neck construction scales from Class 150 process service to wellhead. The class number changes, the material gets heavier, the hub gets taller, but the geometry stays the same.</p>
           <div className="space-y-4">
             {[
-              { code: "Class 125LW", range: "150-175 psi", body: "Lightweight steel weld neck on the ANSI B16.1 Class 125 bolt pattern. Waterworks, HVAC, low-pressure process. Plate-cut or forged from A36 or A516-70." },
-              { code: "AWWA C207 B / D / E / F", range: "86 to 300 psi", body: "Waterworks weld neck flanges per AWWA. Class D is the workhorse at 175 psi. Class E and F handle high-service transmission. Plate-cut from domestic-melt A36 or A516-70 with AIS option." },
               { code: "ASME B16.5 Class 150 to 2500", range: "285 to 6170 psi at 100°F", body: "The plant process workhorse. Catalog sizes 1/2 inch through 24 inch. Carbon A105, stainless F316L, chrome-moly F22 and F91. Raised face, flat face, ring-type joint, tongue-and-groove facings." },
               { code: "ASME B16.47 Series A / B", range: "Through 6170 psi", body: "Large diameter weld neck flanges 26 inch through 60 inch. Series A heavier MSS pattern, Series B lighter API 605 pattern. Class 75 through 900." },
               { code: "MSS SP-44 Pipeline", range: "Class 600 to 2500", body: "Pipeline weld neck flanges matched to API 5L X-grade pipe. A694 F42 through F70 grades. Class 600 through 1500 covers most transmission service. Charpy impact testing standard." },
