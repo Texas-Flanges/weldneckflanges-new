@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
         <div className="col-span-2">
           <p className="text-white font-display text-2xl mb-3">WELD<span className="text-[#FDBA74]">NECK</span></p>
-          <p className="text-gray-300 leading-relaxed max-w-md">How weld neck flanges work, where they&apos;re used and how to spec them, from Class 125LW lightweight through API 6A 20000 PSI.</p>
+          <p className="text-gray-300 leading-relaxed max-w-md">How weld neck flanges work, where they&apos;re used and how to spec them, from ASME B16.5 and B16.47 through API 6A 20000 PSI.</p>
         </div>
         <div>
           <p className="text-white font-semibold mb-3 uppercase tracking-wide text-xs">Reference</p>
