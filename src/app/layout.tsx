@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   keywords: "weld neck flanges, ASME B16.5 weld neck, API 6A weld neck, Hastelloy weld neck, large diameter weld neck, MSS SP-44 pipeline flange, high yield weld neck",
   metadataBase: new URL("https://weldneckflanges.com"),
   alternates: { canonical: "./" },
-  openGraph: { type: "website", siteName: "Weld Neck Flanges", title: "Weld Neck Flanges | Lightweight to API 6A 20K", description: DESCRIPTION, url: "./", images: [OG_IMAGE] },
+  openGraph: { type: "website", siteName: "Weld Neck Flanges", title: "Weld Neck Flanges | ASME B16.5, B16.47 and API 6A 20K Pressure Service", description: DESCRIPTION, url: "./", images: [OG_IMAGE] },
   twitter: { card: "summary_large_image", images: [OG_IMAGE] },
   robots: { index: true, follow: true }
 };
