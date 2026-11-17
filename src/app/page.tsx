@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import CtaBand, { QUOTE_URL } from "@/components/CtaBand";
+import RelatedResources from "@/components/RelatedResources";
 import { OG_IMAGE } from "@/lib/seo";
 
 const TITLE = "Weld Neck Flanges | ASME B16.5, B16.47 and API 6A 20K Pressure Service";
@@ -355,6 +356,7 @@ export default function HomePage() {
       </section>
 
       <CtaBand />
+      <RelatedResources />
     </>
   );
 }

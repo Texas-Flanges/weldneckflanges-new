@@ -1,0 +1,31 @@
+{
+  "site": "weldneckflanges.com",
+  "heading": "Related resources",
+  "links": [
+    {
+      "url": "https://texasflange.com/?ref=weldneckflanges",
+      "label": "Texas Flange & Fitting Supply",
+      "note": "Stock, pricing and quotes on weld neck flanges"
+    },
+    {
+      "url": "https://flangeweld.com/",
+      "label": "Weld neck technical reference (FlangeWeld.com)",
+      "note": "Weld neck sizes, hub and bore data"
+    },
+    {
+      "url": "https://apiflange.com/",
+      "label": "High-pressure API weld necks (APIFlange.com)",
+      "note": "API 6A weld neck flange data"
+    },
+    {
+      "url": "https://chromesteelflanges.com/",
+      "label": "Chrome-moly flange guide (ChromeSteelFlanges.com)",
+      "note": "Cr-Mo grades such as F11 and F22 for weld necks"
+    },
+    {
+      "url": "https://reducingflanges.com/",
+      "label": "Reducing flange guide (ReducingFlanges.com)",
+      "note": "Reducing weld necks and size changes at the flange"
+    }
+  ]
+}
